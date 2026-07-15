@@ -1,0 +1,30 @@
+# macOS and editor files
+.DS_Store
+*.swp
+*.tmp
+
+# Local environments and dependencies
+.supertonic-venv/
+node_modules/
+__pycache__/
+*.py[cod]
+
+# Local models, generated media, and temporary exports
+models/
+*.gguf
+tmp/
+output/
+
+# Runtime logs and secrets
+*.log
+.env
+.env.*
+!.env.example
+
+# Local student/profile data generated while testing
+data/[0-9]*.json
+
+# Xcode-generated local files
+ios/DerivedData/
+*.xcuserstate
+xcuserdata/

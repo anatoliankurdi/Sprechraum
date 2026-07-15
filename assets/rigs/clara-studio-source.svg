@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="900" viewBox="0 0 700 900">
+  <defs>
+    <linearGradient id="studioJacket" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#263c74"/><stop offset="1" stop-color="#0d1939"/></linearGradient>
+    <linearGradient id="studioSkin" x1=".2" y1="0" x2=".8" y2="1"><stop stop-color="#f7ceb2"/><stop offset=".58" stop-color="#efb792"/><stop offset="1" stop-color="#d99b79"/></linearGradient>
+    <linearGradient id="studioHair" x1=".15" y1="0" x2=".85" y2="1"><stop stop-color="#9b6747"/><stop offset=".48" stop-color="#65402f"/><stop offset="1" stop-color="#34231f"/></linearGradient>
+    <radialGradient id="studioFaceLight" cx="34%" cy="23%" r="73%"><stop stop-color="#fff" stop-opacity=".32"/><stop offset=".62" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#784337" stop-opacity=".14"/></radialGradient>
+    <radialGradient id="studioIris" cx="37%" cy="31%" r="64%"><stop stop-color="#b69466"/><stop offset=".5" stop-color="#6b4b30"/><stop offset="1" stop-color="#251a16"/></radialGradient>
+    <filter id="studioShadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#09142d" flood-opacity=".2"/></filter>
+    <filter id="studioFeature" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="2" stdDeviation="1.5" flood-color="#5c2831" flood-opacity=".2"/></filter>
+  </defs>
+
+  <!-- Every named group is intended to become a Rive component or bone target. -->
+  <g id="rig_root" filter="url(#studioShadow)">
+    <g id="hair_back">
+      <path d="M211 292c-29-151 31-241 139-244 113-3 174 91 142 251-8 41-4 101 20 147-41 26-91 37-162 37-72 0-125-11-165-38 26-43 35-101 26-153z" fill="url(#studioHair)"/>
+      <path d="M221 187c23-97 79-142 135-142 72 0 126 50 143 147-50-53-103-66-150-52-39 11-79 35-128 47z" fill="#39251f" opacity=".38"/>
+    </g>
+
+    <g id="body">
+      <path id="torso" d="M115 900c8-197 88-282 194-307h82c107 25 187 110 194 307z" fill="url(#studioJacket)"/>
+      <path id="shirt" d="M285 595l65 131 66-131 54 28-51 277H280l-51-277z" fill="#fff8ef"/>
+      <path id="lapel_left" d="M285 595l65 131-47 174H115c8-191 79-270 170-305z" fill="#172956" opacity=".92"/>
+      <path id="lapel_right" d="M416 595l-66 131 47 174h188c-7-191-78-270-169-305z" fill="#101f46" opacity=".92"/>
+      <path id="neck" d="M310 526h80v104c-19 24-61 24-80 0z" fill="url(#studioSkin)"/>
+      <path d="M310 543q40 36 80 0v31q-40 35-80 0z" fill="#a96655" opacity=".1"/>
+    </g>
+
+    <g id="arm_left">
+      <g id="upper_arm_left"><path d="M276 625c-51 12-84 55-86 123l58 12c5-44 18-75 52-96z" fill="#1b2e60"/></g>
+      <g id="forearm_left"><path d="M190 738c-9 54-3 102 9 144l55-7c0-48 1-87-6-127z" fill="#172956"/></g>
+      <g id="hand_left"><path d="M198 858h55v24h-55z" fill="url(#studioSkin)"/><path d="M192 878q29-24 62 0l4 37q-31 31-66 1z" fill="url(#studioSkin)" stroke="#ca8d70" stroke-width="2"/><path d="M201 893q21-10 45 0M201 903q21-8 45 1" fill="none" stroke="#ca8d70" stroke-width="2" stroke-linecap="round"/></g>
+    </g>
+
+    <g id="arm_right">
+      <g id="upper_arm_right"><path d="M424 625c51 12 84 55 86 123l-58 12c-5-44-18-75-52-96z" fill="#142653"/></g>
+      <g id="forearm_right"><path d="M510 738c9 54 3 102-9 144l-55-7c0-48-1-87 6-127z" fill="#101f46"/></g>
+      <g id="hand_right"><path d="M447 858h55v24h-55z" fill="url(#studioSkin)"/><path d="M446 878q32-24 62 0l-3 39q-32 29-62 0z" fill="url(#studioSkin)" stroke="#ca8d70" stroke-width="2"/><path d="M486 892q14-32 31-26 12 8-8 39M453 893q22-10 45 0M453 903q22-8 45 1" fill="none" stroke="#ca8d70" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></g>
+    </g>
+
+    <g id="head">
+      <g id="ears"><ellipse cx="202" cy="365" rx="22" ry="42" fill="url(#studioSkin)"/><ellipse cx="498" cy="365" rx="22" ry="42" fill="url(#studioSkin)"/><path d="M199 354q15 11 1 27M501 354q-15 11-1 27" fill="none" stroke="#c98770" stroke-width="4" stroke-linecap="round"/></g>
+      <path id="face" d="M350 113c96 0 151 75 146 212-5 143-62 236-146 236s-141-93-146-236c-5-137 50-212 146-212z" fill="url(#studioSkin)"/>
+      <path id="face_light" d="M350 119c91 0 144 72 139 205-5 134-59 228-139 228s-134-94-139-228c-5-133 48-205 139-205z" fill="url(#studioFaceLight)"/>
+      <path id="jaw_shade" d="M244 437q106 125 212 0-22 111-106 115-84-4-106-115z" fill="#7c4036" opacity=".06"/>
+
+      <g id="hair_front">
+        <path d="M205 331c-18-141 39-230 144-233 112-3 169 88 147 237-20-62-49-112-113-141-43 49-102 82-175 87z" fill="url(#studioHair)"/>
+        <path d="M235 242c34-91 105-126 175-84-72 2-100 55-175 84z" fill="#b17b58" opacity=".45"/>
+        <path d="M215 263c-8 92 17 184 73 236-61-21-91-75-91-155 0-49 5-74 18-101zM484 242c19 85 5 188-72 259 74-23 101-94 90-172-5-39-8-63-18-87z" fill="url(#studioHair)"/>
+      </g>
+
+      <g id="brows">
+        <path id="brow_left" d="M254 326q43-28 79 0" fill="none" stroke="#55362c" stroke-width="11" stroke-linecap="round"/>
+        <path id="brow_right" d="M369 326q42-28 78 0" fill="none" stroke="#55362c" stroke-width="11" stroke-linecap="round"/>
+      </g>
+
+      <g id="eyes">
+        <g id="eye_left"><path d="M257 365q35-28 70 0-34 31-70 0z" fill="#fffdfa"/><circle id="iris_left" cx="293" cy="365" r="15" fill="url(#studioIris)"/><circle id="pupil_left" cx="293" cy="367" r="7" fill="#171413"/><circle cx="288" cy="360" r="4" fill="#fff"/><path id="lid_left" d="M257 363q35-29 70 0" fill="none" stroke="#4c3029" stroke-width="5" stroke-linecap="round"/></g>
+        <g id="eye_right"><path d="M373 365q35-28 70 0-34 31-70 0z" fill="#fffdfa"/><circle id="iris_right" cx="409" cy="365" r="15" fill="url(#studioIris)"/><circle id="pupil_right" cx="409" cy="367" r="7" fill="#171413"/><circle cx="404" cy="360" r="4" fill="#fff"/><path id="lid_right" d="M373 363q35-29 70 0" fill="none" stroke="#4c3029" stroke-width="5" stroke-linecap="round"/></g>
+      </g>
+
+      <g id="cheeks"><ellipse cx="263" cy="424" rx="36" ry="17" fill="#e98784" opacity=".18"/><ellipse cx="438" cy="424" rx="36" ry="17" fill="#e98784" opacity=".18"/></g>
+      <path id="nose" d="M349 365q-12 54 8 70 9 3 18-4" fill="none" stroke="#ba7763" stroke-width="7" stroke-linecap="round"/>
+
+      <g id="mouth_anchor" transform="translate(350 476)" filter="url(#studioFeature)">
+        <g id="viseme_REST"><path d="M-43 2Q0 17 43 2Q0 27-43 2Z" fill="#713541"/><path d="M-39 7Q0 26 39 7Q0 21-39 7Z" fill="#b9636d" opacity=".8"/></g>
+        <g id="viseme_A" opacity="0"><path d="M-43-3Q0-18 43-3Q48 51 0 58Q-48 51-43-3Z" fill="#51212c"/><path d="M-24 35Q0 20 24 35Q0 55-24 35Z" fill="#db7b83"/></g>
+        <g id="viseme_E" opacity="0"><path d="M-50 0Q0-14 50 0Q0 37-50 0Z" fill="#54232e"/><path d="M-40 2Q0 15 40 2L34 17Q0 23-34 17Z" fill="#fffaf2"/></g>
+        <g id="viseme_I" opacity="0"><path d="M-55 3Q0-10 55 3Q0 27-55 3Z" fill="#54232e"/><path d="M-44 4Q0 14 44 4L38 14Q0 19-38 14Z" fill="#fffaf2"/></g>
+        <g id="viseme_O" opacity="0"><ellipse cx="0" cy="19" rx="30" ry="39" fill="#54232e"/><ellipse cx="0" cy="35" rx="17" ry="11" fill="#d97982"/></g>
+        <g id="viseme_U" opacity="0"><ellipse cx="0" cy="15" rx="22" ry="30" fill="#54232e"/></g>
+        <g id="viseme_M" opacity="0"><path d="M-44 4Q0 15 44 4Q0 20-44 4Z" fill="#8f4652"/></g>
+        <g id="viseme_F" opacity="0"><path d="M-47 0Q0 9 47 0Q0 29-47 0Z" fill="#54232e"/><path d="M-39 1Q0 12 39 1L34 13Q0 18-34 13Z" fill="#fffaf2"/></g>
+      </g>
+    </g>
+
+    <g id="gesture_thumbs_up" opacity="0" transform="translate(470 596)"><path d="M0 53h58v36H0z" fill="#142653"/><path d="M3 22h18V-9c0-17 21-17 21 0v23h21c15 0 20 11 16 24l-8 29c-3 12-12 18-23 18H19C8 85 2 76 2 65z" fill="url(#studioSkin)" stroke="#ca8d70" stroke-width="3" stroke-linejoin="round"/></g>
+  </g>
+</svg>

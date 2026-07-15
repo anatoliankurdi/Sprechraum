@@ -1,0 +1,12 @@
+{
+  "name":"Sprechraum — Almanca B1 Koçu",
+  "short_name":"Sprechraum",
+  "description":"Yerel yapay zekâ destekli Almanca B1 konuşma ve sınav koçu",
+  "start_url":"/",
+  "display":"standalone",
+  "background_color":"#f6f3ec",
+  "theme_color":"#101d3f",
+  "orientation":"portrait-primary",
+  "lang":"tr",
+  "icons":[{"src":"/assets/app-icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}

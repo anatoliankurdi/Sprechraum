@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#58cc02">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Sprechraum">
+  <title>Sprechraum — Almanca B1 Sınav Koçu</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/app-icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="avatar-motion.css">
+  <link rel="stylesheet" href="playful-theme.css?v=34">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="#" aria-label="Sprechraum ana sayfa">
+        <span class="brand-mark">S</span>
+        <span><b>Sprechraum</b><small>Deutsch. Sicher.</small></span>
+      </a>
+
+      <nav class="main-nav" aria-label="Ana menü">
+        <button class="nav-item active" data-view="home"><span>⌂</span> <i data-i18n="navToday">Bugün</i></button>
+        <button class="nav-item" data-view="practice"><span>◉</span> <i data-i18n="navPractice">Avatarla pratik</i></button>
+        <button class="nav-item" data-view="partners"><span>♧</span> <i>Partner bul</i></button>
+        <button class="nav-item" data-view="exam"><span>◇</span> <i data-i18n="navExam">Sınav bölümleri</i></button>
+        <button class="nav-item" data-view="words"><span>▱</span> <i data-i18n="navWords">Kelime kartları</i> <em>12</em></button>
+        <button class="nav-item" data-view="grammar"><span>✦</span> <i data-i18n="navGrammar">Gramer</i></button>
+        <button class="nav-item" data-view="library"><span>▤</span> <i data-i18n="navLibrary">Kütüphanem</i></button>
+        <button class="nav-item" data-view="progress"><span>↗</span> <i data-i18n="navProgress">İlerlemem</i></button>
+      </nav>
+
+      <div class="sidebar-bottom">
+        <button class="nav-item" id="settingsBtn"><span>⚙</span> <i data-i18n="navSettings">Ayarlar</i></button>
+        <div class="level-card">
+          <div class="level-row"><span>B1 yolculuğu</span><b>%68</b></div>
+          <div class="progress-track"><i style="width:68%"></i></div>
+          <small>Hedef: telc B1 · 24 gün</small>
+        </div>
+        <button class="profile-row" id="profileBtn" type="button"><span class="profile-avatar" id="profileAvatar">İA</span><span><b id="profileName">İlyas</b><small id="profileStreak">Öğrenci profili · yerel hafıza</small></span><em>•••</em></button>
+      </div>
+    </aside>
+
+    <main class="content">
+      <header class="topbar">
+        <button class="mobile-menu" aria-label="Menüyü aç">☰</button>
+        <div><span class="eyebrow" id="pageEyebrow">PAZARTESİ · 13 TEMMUZ</span><h1 id="pageTitle">Guten Morgen, İlyas.</h1></div>
+        <div class="top-actions"><span class="ai-status"><i></i> Yerel AI hazır</span><button class="icon-button" aria-label="Bildirimler">♢<b></b></button></div>
+      </header>
+
+      <section class="view active" id="view-home">
+        <div class="hero-grid">
+          <article class="hero-card">
+            <div class="hero-copy">
+              <span class="pill coral">BUGÜNÜN ODAĞI</span>
+              <h2>Konuşarak<br><em>kendine güven.</em></h2>
+              <p>Clara bugün seni telc B1 sözlü sınavının “Gemeinsam etwas planen” bölümüne hazırlayacak.</p>
+              <div class="hero-actions"><button class="primary" data-go="practice">Derse başla <span>→</span></button><span><b>15 dk</b><small>önerilen süre</small></span></div>
+            </div>
+            <div class="hero-portrait">
+              <div class="portrait-halo"></div>
+              <img id="tutorImage" src="assets/clara-2d.svg" alt="2D Almanca öğretmeni Clara">
+              <div class="speech-card"><i></i><span><b id="heroGreeting">Hallo İlyas!</b><small>Bereit für heute?</small></span><button class="listen-greeting">▶</button></div>
+            </div>
+          </article>
+
+          <article class="streak-card">
+            <div class="card-heading"><span><small>ÖĞRENME SERİSİ</small><b>12 gün</b></span><span class="flame">♨</span></div>
+            <div class="week-row" id="weekRow"></div>
+            <p>Harika gidiyorsun! Bir sonraki hedefin <b>14 gün.</b></p>
+          </article>
+        </div>
+
+        <div class="section-heading"><div><span class="eyebrow">KISA VE ETKİLİ</span><h2>Bugünün programı</h2></div><button data-go="progress">Tümünü gör →</button></div>
+        <div class="daily-grid">
+          <button class="daily-card vocabulary" data-go="words"><span class="task-icon">Aa</span><span><small>8 DAKİKA</small><b>Günün 12 kelimesi</b><em>Arbeit &amp; Beruf</em><i><u style="width:58%"></u></i></span><strong>7/12</strong></button>
+          <button class="daily-card grammar" data-go="grammar"><span class="task-icon">§</span><span><small>10 DAKİKA</small><b>Weil, dass, obwohl</b><em>Yan cümleler</em><i><u style="width:30%"></u></i></span><strong>3/10</strong></button>
+          <button class="daily-card speaking" data-go="practice"><span class="task-icon">◉</span><span><small>15 DAKİKA</small><b>Birlikte plan yap</b><em>Sözlü sınav pratiği</em><i><u style="width:0%"></u></i></span><strong>Başla →</strong></button>
+        </div>
+
+        <div class="lower-grid">
+          <article class="exam-card">
+            <div><span class="pill navy">B1 SINAV MODU</span><h3>Gerçek sınava<br>hazır mısın?</h3><p>Süreli oturum, gerçek görevler ve sınav sonunda detaylı değerlendirme.</p><button class="secondary" data-go="exam">Simülasyonu incele →</button></div>
+            <div class="score-ring"><span><b>76</b><small>son puan</small></span></div>
+          </article>
+          <article class="tip-card"><span class="quote">“</span><small>CLARA’DAN İPUCU</small><blockquote>“Plan yaparken her öneriden sonra partnerine fikrini sor: <em>Was meinst du dazu?</em>”</blockquote><button class="listen-tip">▶ Dinle</button></article>
+        </div>
+      </section>
+
+      <section class="view" id="view-practice">
+        <div class="theme-picker" id="themePicker">
+          <div class="theme-picker-head">
+            <div><span class="eyebrow">GEMEINSAM ETWAS PLANEN</span><h2>Bir sınav teması seç</h2><p>İstediğin görevi seç; rolün ve konuşmayı kimin başlatacağı sınavdaki gibi rastgele belirlensin.</p></div>
+            <label class="theme-search"><span>⌕</span><input id="themeSearch" type="search" placeholder="Tema ara…" autocomplete="off"></label>
+          </div>
+          <div class="theme-catalog" id="themeCatalog"><div class="theme-loading">PDF temaları hazırlanıyor…</div></div>
+        </div>
+        <div class="practice-layout" id="practiceLayout" hidden>
+          <div class="video-panel">
+            <div class="video-head"><span><i></i> CANLI PRATİK</span><span id="sessionTimer">00:00</span></div>
+            <div class="avatar-stage" data-character="clara">
+              <svg class="avatar-2d" viewBox="0 0 400 520" role="img" aria-label="Clara ile konuşma pratiği">
+                <defs>
+                  <linearGradient id="jacket" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1d315d"/><stop offset="1" stop-color="#0c1837"/></linearGradient>
+                  <linearGradient id="skin" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#f4c6a7"/><stop offset="1" stop-color="#dca181"/></linearGradient>
+                  <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8a5b3c"/><stop offset=".55" stop-color="#5a3728"/><stop offset="1" stop-color="#33221d"/></linearGradient>
+                  <radialGradient id="faceLight" cx="36%" cy="24%" r="72%"><stop stop-color="#fff" stop-opacity=".24"/><stop offset=".62" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#7a3f32" stop-opacity=".12"/></radialGradient>
+                  <radialGradient id="iris" cx="38%" cy="32%" r="65%"><stop stop-color="#a98658"/><stop offset=".55" stop-color="#66492e"/><stop offset="1" stop-color="#2d2119"/></radialGradient>
+                  <linearGradient id="lip" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#b96770"/><stop offset="1" stop-color="#873f49"/></linearGradient>
+                  <filter id="softShadow"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-opacity=".18"/></filter>
+                  <filter id="featureShadow"><feDropShadow dx="0" dy="1" stdDeviation="1.2" flood-color="#4b2530" flood-opacity=".22"/></filter>
+                </defs>
+                <circle class="avatar-halo" cx="200" cy="195" r="172" fill="#e47e68" opacity=".96"/>
+                <circle cx="200" cy="195" r="145" fill="none" stroke="#fff" stroke-opacity=".16" stroke-width="2"/>
+                <g class="avatar-breathe" filter="url(#softShadow)">
+                  <path class="avatar-jacket" d="M58 520c7-106 57-152 113-166h58c57 14 107 60 114 166z" fill="url(#jacket)"/>
+                  <path d="M159 353l41 86 42-86 39 19-38 148h-86l-38-148z" fill="#f7eee4"/>
+                  <path class="avatar-jacket" d="M159 353l41 86-31 81H58c7-106 50-144 101-167zm82 0l-41 86 31 81h112c-7-106-50-144-102-167z" fill="url(#jacket)"/>
+                  <path class="avatar-skin" d="M175 318h50v62c-12 14-38 14-50 0z" fill="url(#skin)"/>
+                  <g class="avatar-head">
+                  <ellipse class="avatar-skin" cx="200" cy="215" rx="99" ry="126" fill="url(#skin)"/>
+                  <ellipse class="avatar-face-light" cx="200" cy="215" rx="96" ry="123" fill="url(#faceLight)"/>
+                  <path class="avatar-jaw-shade" d="M127 272q73 91 146 0-14 72-73 72-59 0-73-72z" fill="#7f4438" opacity=".055"/>
+                  <ellipse class="avatar-skin-shadow" cx="105" cy="225" rx="13" ry="25" fill="#dca181"/><ellipse class="avatar-skin-shadow" cx="295" cy="225" rx="13" ry="25" fill="#dca181"/>
+                  <path class="avatar-hair" d="M104 215c-11-86 26-145 94-147 72-2 111 59 99 151-12-41-23-73-64-91-28 34-68 57-125 54z" fill="url(#hair)"/>
+                  <path class="avatar-hair" d="M108 175c-5 58 10 116 44 147-40-14-61-48-60-100 0-37 7-62 24-86zM288 160c13 56 3 122-37 164 48-15 65-64 59-113-4-32-11-52-28-76z" fill="url(#hair)"/>
+                  <path class="avatar-hair-highlight" d="M128 169c23-61 72-86 119-61-50 3-69 42-119 61z" fill="#a8724d" opacity=".55"/>
+                  <path class="avatar-brows" d="M137 194q28-17 53 0M210 194q28-17 53 0" fill="none" stroke="#59382a" stroke-width="7" stroke-linecap="round"/>
+                  <g class="avatar-eyes"><path d="M145 218q19-17 38 0-18 18-38 0zM217 218q19-17 38 0-18 18-38 0z" fill="#fffdf9"/><g class="avatar-pupils"><circle cx="165" cy="219" r="9" fill="url(#iris)"/><circle cx="237" cy="219" r="9" fill="url(#iris)"/><circle cx="165" cy="220" r="4.2" fill="#171514"/><circle cx="237" cy="220" r="4.2" fill="#171514"/><circle cx="162" cy="216" r="2.7" fill="#fff"/><circle cx="234" cy="216" r="2.7" fill="#fff"/></g><path class="avatar-lashes" d="M145 216q19-16 38 0M217 216q19-16 38 0" fill="none" stroke="#4a3028" stroke-width="3" stroke-linecap="round"/><path class="eyelids" d="M145 217q19-18 38 0M217 217q19-18 38 0" fill="none" stroke="#d89d7c" stroke-width="0" stroke-linecap="round"/></g>
+                  <path class="avatar-nose" d="M199 220q-7 31 4 39" fill="none" stroke="#bd7c66" stroke-width="4" stroke-linecap="round"/>
+                  <ellipse class="avatar-blush" cx="145" cy="259" rx="21" ry="10" fill="#e88682" opacity=".18"/><ellipse class="avatar-blush" cx="256" cy="259" rx="21" ry="10" fill="#e88682" opacity=".18"/>
+                  <g class="avatar-mouth" transform="translate(200 286)" filter="url(#featureShadow)"><path class="avatar-upper-lip" d="M-26 1Q-9-6 0-1Q10-6 26 1Q10 5 0 4Q-11 5-26 1Z" fill="url(#lip)"/><path id="avatarMouth" d="M-25 2Q0 10 25 2Q0 20-25 2Z" fill="#54232d"/><path id="avatarTeeth" d="M-19 3Q0 8 19 3L17 9Q0 12-17 9Z" fill="#fffaf2" opacity="0"/><path id="avatarTongue" d="M-13 18Q0 11 13 18Q0 28-13 18Z" fill="#d87b82" opacity="0"/><path id="avatarLowerLip" d="M-23 4Q0 21 23 4Q0 16-23 4Z" fill="#bb6872" opacity=".72"/></g>
+                  <g class="avatar-detail avatar-detail-mia"><path d="M105 205q-12-105 86-137-55 50-28 110-26 22-58 27zM294 205q13-99-77-137 48 53 22 111 26 20 55 26z" fill="var(--avatar-hair,#b96f35)"/><circle cx="292" cy="120" r="13" fill="#f1c64e"/><path d="M279 120l-16-10v20zM305 120l16-10v20z" fill="#f1c64e"/></g>
+                  <g class="avatar-detail avatar-detail-weber"><path d="M116 156q16-72 84-79 72 7 86 81-38-31-85-28-47-3-85 26z" fill="var(--avatar-hair,#6f6b69)"/><circle cx="274" cy="91" r="31" fill="var(--avatar-hair,#6f6b69)"/><path d="M137 229q27 11 54 0M209 229q27 11 54 0" fill="none" stroke="#a77465" stroke-width="2" opacity=".45"/><circle cx="164" cy="219" r="27" fill="#fff" fill-opacity=".04" stroke="#58606a" stroke-width="3.5"/><circle cx="236" cy="219" r="27" fill="#fff" fill-opacity=".04" stroke="#58606a" stroke-width="3.5"/><path d="M191 218h18" stroke="#58606a" stroke-width="3.5"/></g>
+                  <g class="avatar-detail avatar-detail-lukas"><path d="M126 159q22-83 91-78 58 4 72 76-44-35-89-27-38 7-74 29z" fill="var(--avatar-hair,#3d2b25)"/><path d="M137 265q63 60 126 0-5 68-63 70-58-2-63-70z" fill="#49342f" opacity=".2"/><path d="M151 283q49 41 98 0M166 306q34 18 68 0" fill="none" stroke="#533a34" stroke-width="3" opacity=".4"/></g>
+                  <circle class="avatar-earring" cx="133" cy="238" r="4" fill="#d5a43c"/><circle class="avatar-earring" cx="267" cy="238" r="4" fill="#d5a43c"/>
+                  </g>
+                  <g class="avatar-arms">
+                    <g class="avatar-arm avatar-arm-left"><path class="avatar-upper-arm" d="M151 373c-23 5-36 25-38 58l31 7c3-22 10-37 24-46z" fill="var(--avatar-jacket,#14264f)"/><g class="avatar-forearm avatar-forearm-left"><path d="M114 426q-6 28 0 58l30-2q2-29 0-50z" fill="var(--avatar-jacket,#14264f)"/><g class="avatar-hand-rig avatar-hand-rig-left"><path class="avatar-wrist" d="M114 472h30v16h-30z" fill="var(--avatar-skin,#efb895)"/><path class="avatar-hand avatar-palm" d="M111 482q15-15 33-1l3 22q-17 19-36 1z" fill="var(--avatar-skin,#efb895)"/><path class="avatar-fingers" d="M116 490q12-7 25 0M116 497q12-6 25 0" fill="none" stroke="#c98e72" stroke-width="2" stroke-linecap="round"/></g></g></g>
+                    <g class="avatar-arm avatar-arm-right"><path class="avatar-upper-arm" d="M249 373c23 5 36 25 38 58l-31 7c-3-22-10-37-24-46z" fill="var(--avatar-jacket,#14264f)"/><g class="avatar-forearm avatar-forearm-right"><path d="M286 426q6 28 0 58l-30-2q-2-29 0-50z" fill="var(--avatar-jacket,#14264f)"/><g class="avatar-hand-rig avatar-hand-rig-right"><path class="avatar-wrist" d="M256 472h30v16h-30z" fill="var(--avatar-skin,#efb895)"/><path class="avatar-hand avatar-palm" d="M256 482q17-15 33-1l-1 25q-18 16-34-2z" fill="var(--avatar-skin,#efb895)"/><path class="avatar-thumb" d="M278 489q8-25 18-20 8 5-5 30" fill="var(--avatar-skin,#efb895)" stroke="#c98e72" stroke-width="2" stroke-linejoin="round"/><path class="avatar-fingers" d="M258 491q12-7 25 0M258 498q12-6 25 0" fill="none" stroke="#c98e72" stroke-width="2" stroke-linecap="round"/></g></g></g>
+                  </g>
+                  <g class="avatar-approval-hand" transform="translate(272 350)"><path d="M2 49h38v24H2z" fill="var(--avatar-jacket,#14264f)"/><path d="M3 22h11V2c0-9 13-9 13 0v14h13c9 0 12 7 10 15l-5 19c-2 7-7 11-14 11H13C6 61 2 56 2 49z" fill="var(--avatar-skin,#efb895)" stroke="#c98e72" stroke-width="2" stroke-linejoin="round"/><path d="M27 25h19M26 33h18M24 41h18" fill="none" stroke="#c98e72" stroke-width="1.7" stroke-linecap="round"/></g>
+                </g>
+              </svg>
+              <div class="speaking-glow"></div>
+              <div class="voice-state" id="voiceState"><i></i><span>Clara hazır</span></div>
+              <div class="avatar-caption"><b>Clara</b><span>telc B1 Sınav Koçu</span></div>
+            </div>
+            <div class="speech-mode" aria-label="Mikrofon modu">
+              <button class="active" data-mic-mode="hold">Basılı tut</button>
+              <button data-mic-mode="continuous">Kesintisiz</button>
+            </div>
+            <div class="call-controls">
+              <button class="round-control mic-control" id="micBtn" aria-label="Konuşmak için basılı tut"><span>●</span><small>Basılı tut ve konuş</small></button>
+              <button class="end-call" id="endCall">Oturumu bitir</button>
+              <button class="round-control" id="repeatBtn" aria-label="Tekrar dinle">↻</button>
+            </div>
+          </div>
+          <div class="session-panel">
+            <div class="session-toolbar"><button type="button" id="changeTheme">← Temalara dön</button><span id="taskProgressLabel">0 / 0 görev</span></div>
+            <div class="mode-tabs" id="modeTabs" hidden></div>
+            <div class="task-brief" id="taskBrief"></div>
+            <button class="theme-start" id="themeStartBtn" hidden>▶ Prüfung starten</button>
+            <div class="chat-stream" id="chatStream"></div>
+            <div class="coach-note" id="coachNote" hidden><span>✦</span><p></p></div>
+            <form class="chat-input" id="chatForm"><input id="chatInput" autocomplete="off" enterkeyhint="send" placeholder="Almanca cevabını yaz veya mikrofona bas…"><button type="submit" id="sendMessageBtn">Gönder ↑</button></form>
+          </div>
+        </div>
+      </section>
+
+      <section class="view" id="view-exam"><div class="page-intro"><span class="eyebrow">TELC · DTZ · GOETHE · ÖSD</span><h2 data-i18n="examPartsTitle">B1 sözlü sınav bölümleri</h2><p data-i18n="examPartsText">Her bölümü öğretme modunda adım adım çalış veya sınav modunda tek başına tamamla.</p></div><div class="mode-grid" id="examModeGrid"></div></section>
+
+      <section class="view" id="view-partners">
+        <div class="partner-head"><div><span class="eyebrow">SPRECHPARTNER · GEMEINSAM LERNEN</span><h2>Almanca konuşma partnerini bul</h2><p>Seviyene, sınavına, konuştuğun dillere ve uygun olduğun zamana göre eşleş.</p></div><button class="partner-visibility" id="partnerVisibility"><i></i><span><b>Partner arıyorum</b><small>Profilini aramalarda göster</small></span><em>Kapalı</em></button></div>
+        <div class="partner-tabs" role="tablist"><button class="active" data-partner-tab="discover">Partner ara</button><button data-partner-tab="friends">Arkadaşlar <em id="friendCount">0</em></button><button data-partner-tab="groups">Gruplar</button></div>
+        <div class="partner-panel active" data-partner-panel="discover">
+          <div class="partner-filters"><label><span>Arama</span><input id="partnerSearch" type="search" placeholder="İsim, şehir veya dil ara…"></label><label><span>Dil seviyesi</span><select id="partnerLevel"><option value="">Tümü</option><option>A1</option><option>A2</option><option>B1</option><option>B2</option></select></label><label><span>Partner amacı</span><select id="partnerGoal"><option value="">Tümü</option><option value="exam">Sınav partneri</option><option value="practice">Konuşma pratiği</option><option value="daily">Günlük konuşma</option></select></label><label><span>Sınav</span><select id="partnerExam"><option value="">Tümü</option><option>telc</option><option>DTZ</option><option>Goethe</option><option>ÖSD</option></select></label><label><span>Konuştuğu dil</span><select id="partnerLanguage"><option value="">Tümü</option><option>Türkçe</option><option>İngilizce</option></select></label><button id="clearPartnerFilters">Filtreleri temizle</button></div>
+          <div class="partner-results-head"><span><b id="partnerResultCount">0</b> uygun partner</span><small>Yalnız “partner arıyorum” seçeneği açık profiller</small></div>
+          <div class="partner-safety"><span>◇</span><p><b>Güvenli eşleşme</b> Soyadı ve iletişim bilgileri arkadaşlık kabul edilene kadar gizlidir. Rahatsız edici profilleri engelleyebilir veya bildirebilirsin.</p><small>Doğrulanmış profiller ✓ ile gösterilir</small></div>
+          <div class="partner-catalog" id="partnerCatalog"></div>
+        </div>
+        <div class="partner-panel" data-partner-panel="friends"><div class="friends-layout"><div><div class="partner-results-head"><span><b>Arkadaşların</b></span><button id="createGroupFromFriends">＋ Grup oluştur</button></div><div class="friend-list" id="friendList"></div></div><aside class="friend-activity"><h3>Birlikte çalış</h3><p>Bir arkadaşını seçip sohbet, sesli görüşme veya gerçek A/B sınav pratiği başlat.</p><div id="friendActivity"></div></aside></div></div>
+        <div class="partner-panel" data-partner-panel="groups"><div class="groups-head"><div><h3>Çalışma grupları</h3><p>Arkadaşlarını aynı gruba ekle, ortak çalışma zamanı belirle.</p></div><button id="createGroupBtn">＋ Yeni grup</button></div><div class="group-list" id="groupList"></div></div>
+        <div class="partner-room" id="partnerRoom" hidden></div>
+      </section>
+
+      <section class="view" id="view-oral">
+        <div class="oral-shell" id="oralApp"></div>
+      </section>
+      <section class="view" id="view-words"><div class="page-intro word-page-intro"><div><span class="eyebrow">GOETHE B1 · AKILLI TEKRAR</span><h2 id="wordPageTitle">Günlük kelime kartları</h2><p id="wordPageText">Goethe-Zertifikat B1 listesindeki kelimeleri örnek cümle, çeviri, görsel ve telaffuzla öğren.</p></div><button class="word-settings-open" id="wordSettingsBtn">⚙ Günlük tekrar ayarları</button></div><div class="word-dashboard"><div class="word-stats"><span><small id="wordLibraryLabel">KELİME KÜTÜPHANESİ</small><b id="wordTotal">0</b></span><span><small id="wordProgressLabel">BUGÜN</small><b id="wordTodayProgress">0 / 5</b></span><button id="startQuickReview">✦ Hızlı tekrarı başlat</button></div><div class="flashcard-wrap"><div class="flashcard" id="flashcard" role="button" tabindex="0" aria-label="Kelimeyi ve örnek cümleyi dinle"><div class="word-visual" id="wordVisual"></div><div class="word-source" id="wordSource">GOETHE B1</div><span id="wordArticle">der</span><h2 id="wordGerman">Vorschlag</h2><small id="wordForms"></small><button class="word-audio" id="wordAudio" type="button">▶ Kelimeyi ve cümleyi dinle</button><p id="wordExample">Ich habe einen Vorschlag.</p><button id="revealWord" type="button">Anlamı ve çeviriyi göster</button><div class="word-translation" id="wordTranslation" hidden><strong id="wordMeaning"></strong><p id="exampleTranslation"></p></div></div><div class="card-actions"><button data-rate="again">Tekrar</button><button data-rate="hard">Zor</button><button data-rate="good">Bildim</button></div></div></div></section>
+      <section class="view" id="view-grammar"><div class="page-intro"><span class="eyebrow">B1 GRAMER</span><h2>Cümle kurarak öğren</h2><p>Kısa açıklama, örnek ve Clara ile anında uygulama.</p></div><div class="grammar-grid" id="grammarGrid"></div></section>
+      <section class="view" id="view-library"><div class="page-intro library-intro"><div><span class="eyebrow">KİŞİSEL İÇERİK</span><h2>Kütüphanem</h2><p>PDF, TXT, Markdown veya JSON yükle. Clara konuşma görevlerini bu içeriklerden hazırlasın.</p></div><label class="upload-button">＋ Dosya yükle<input type="file" id="fileUpload" accept=".pdf,.txt,.md,.json" multiple></label></div><div class="library-list" id="libraryList"></div></section>
+      <section class="view" id="view-progress"><div class="page-intro"><span class="eyebrow">ÖĞRENME ANALİZİ</span><h2 id="progressTitle">İlerlemen</h2><p>İlk günden bugüne konuşma ve sınav gelişimin.</p></div><div class="stats-grid"><article><small>Tamamlanan çalışma</small><b id="statSessions">0</b><em>kişisel hafızada</em></article><article><small>Öğrenilen kişisel bilgi</small><b id="statFacts">0</b><em>Clara seni tanıyor</em></article><article><small>Ortalama sınav</small><b id="statAverage">—</b><em id="statTrend">ilk sınav bekleniyor</em></article><article><small>Aktif gün</small><b id="statDays">1</b><em>yerel öğrenme günlüğü</em></article></div><div class="memory-card" id="memoryCard"></div><div class="skill-card"><h3>B1 beceri haritası</h3><div id="skillBars"></div></div></section>
+    </main>
+  </div>
+
+  <dialog id="settingsDialog" class="settings-dialog"><form method="dialog"><div class="dialog-head"><div><small>YEREL VE ÖZEL</small><h2>Uygulama ayarları</h2></div><button value="cancel">×</button></div><p>Yapay zekâ, ses ve öğrenci hafızası bu cihazda çalışır. Seçtiğiniz öğretmen bütün konuşma bölümlerinde kullanılır.</p><label>Uygulama ve açıklama dili<select id="appLanguage"><option value="tr">Türkçe</option><option value="en">English</option></select></label><fieldset class="character-settings"><legend>Avatar ve ses karakteri</legend><div class="character-grid" id="characterGrid"></div><div class="avatar-motion-settings"><label>Hareket ve mimik yoğunluğu<select id="avatarMotion"><option value="calm">Sakin</option><option value="natural">Doğal</option><option value="expressive">Canlı</option></select></label><button class="voice-preview" type="button" id="previewVoice">▶ Sesi ve hareketleri dene</button></div></fieldset><div class="model-test voice-test"><i></i><span><b>Ücretsiz yerel premium ses</b><small id="ttsStatus">Supertonic 3 kontrol ediliyor…</small></span><button type="button" id="testVoice">Kontrol et</button></div><details class="advanced-settings"><summary>Gelişmiş yapay zekâ ayarları</summary><label>Ollama adresi<input id="ollamaUrl" value="http://127.0.0.1:11434"></label><label>Hızlı model<input id="modelName" value="gemma3:1b-it-qat"></label><div class="model-test"><i></i><span><b>Bağlantı durumu</b><small id="modelStatus">Henüz test edilmedi</small></span><button type="button" id="testModel">Test et</button></div></details><menu><button value="cancel">Vazgeç</button><button value="default" id="saveSettings">Kaydet</button></menu></form></dialog>
+  <dialog id="wordSettingsDialog"><form method="dialog"><div class="dialog-head"><div><small>GÜNLÜK KELİME RUTİNİ</small><h2 id="wordSettingsTitle">Hızlı tekrar ayarları</h2></div><button value="cancel">×</button></div><p id="wordSettingsText">Uygulamayı açtığında veya telefona geri döndüğünde kısa kelime tekrarı gösterilir.</p><label class="word-toggle"><input type="checkbox" id="quickReviewEnabled"><span><b id="quickReviewToggleTitle">Otomatik hızlı tekrar</b><small id="quickReviewToggleText">İstediğin zaman kapatabilirsin.</small></span></label><label><span id="dailyCountLabel">Her tekrarda gösterilecek kelime</span><select id="dailyWordCount"><option value="3">3</option><option value="5">5</option><option value="10">10</option><option value="15">15</option><option value="20">20</option></select></label><menu><button value="cancel">Vazgeç</button><button type="button" id="saveWordSettings">Kaydet</button></menu></form></dialog>
+  <dialog id="profileDialog"><form method="dialog" class="profile-form"><div class="dialog-head"><div><small>KİŞİSEL · YEREL HAFIZA</small><h2>Öğrenci profili</h2></div><button value="cancel">×</button></div><p>Clara bu bilgileri yalnızca bu cihazda saklar ve konuşmaları kişiselleştirmek için kullanır.</p><label>Kayıtlı öğrenci<select id="profileSelect"></select></label><button type="button" class="new-profile" id="newProfileBtn">＋ Yeni öğrenci profili oluştur</button><div class="profile-form-grid"><label>Adınız<input id="studentName" autocomplete="name" required placeholder="Örn. İlyas"></label><label>Yaşınız<input id="studentAge" inputmode="numeric" placeholder="Örn. 33"></label><label>Memleket / ülke<input id="studentOrigin" placeholder="Örn. die Türkei"></label><label>Yaşadığınız şehir<input id="studentCity" placeholder="Örn. Hanau"></label><label>Meslek<input id="studentJob" placeholder="Örn. Pflegefachkraft"></label><label>Konuştuğunuz diller<input id="studentLanguages" placeholder="Örn. Türkisch, Deutsch"></label></div><label>Almanca öğrenme hedefiniz<input id="studentGoal" placeholder="Örn. Ich möchte die B1-Prüfung bestehen."></label><div class="profile-memory-preview" id="profileMemoryPreview"></div><menu><button value="cancel">Vazgeç</button><button type="button" id="saveProfile">Profili kaydet</button></menu></form></dialog>
+  <dialog id="partnerProfileDialog"><form method="dialog" class="partner-profile-dialog"><button class="dialog-close" value="cancel">×</button><div id="partnerProfileContent"></div></form></dialog>
+  <dialog id="partnerChatDialog"><form method="dialog" class="partner-chat-dialog"><div class="dialog-head"><div><small>ÖZEL SOHBET</small><h2 id="chatPartnerName">Partner</h2></div><button value="cancel">×</button></div><div class="partner-chat-stream" id="partnerChatStream"></div><div class="partner-chat-compose"><input id="partnerChatInput" placeholder="Mesajını yaz…"><button type="button" id="sendPartnerChat">Gönder</button></div></form></dialog>
+  <dialog id="groupDialog"><form method="dialog" class="profile-form"><div class="dialog-head"><div><small>ORTAK ÇALIŞMA</small><h2>Yeni grup oluştur</h2></div><button value="cancel">×</button></div><label>Grup adı<input id="groupName" placeholder="Örn. B1 telc Hazırlık"></label><fieldset id="groupFriendChoices"><legend>Arkadaşlarını seç</legend></fieldset><label>Çalışma hedefi<select id="groupGoal"><option>B1 sınav pratiği</option><option>Günlük konuşma</option><option>Kelime ve gramer</option></select></label><menu><button value="cancel">Vazgeç</button><button type="button" id="saveGroup">Grubu oluştur</button></menu></form></dialog>
+
+  <div class="quick-review" id="quickReview" hidden><div class="quick-review-shell"><header><span><small id="quickReviewEyebrow">GÜNLÜK 5 KELİME</small><b id="quickReviewCounter">1 / 5</b></span><button id="closeQuickReview" aria-label="Kapat">×</button></header><div class="quick-review-progress"><i id="quickReviewProgress"></i></div><div id="quickReviewCard"></div><footer><button id="quickReviewPrev">←</button><small id="quickReviewSwipeHint">Kartı çevir, sonra kaydır</small><button id="quickReviewNext">→</button></footer></div></div>
+
+  <div class="toast" id="toast"></div>
+  <script src="app.js?v=34" defer></script>
+</body>
+</html>

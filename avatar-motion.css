@@ -1,0 +1,256 @@
+/* Professional layered motion rig. Loaded after styles.css on purpose. */
+.avatar-head {
+  transform-origin: 200px 270px;
+  transition: transform .54s cubic-bezier(.22,.8,.24,1);
+  animation: avatarHeadIdle 5.8s ease-in-out infinite;
+}
+
+@keyframes avatarApprovalPop {
+  0%,100% { transform: translateY(0) rotate(0) scale(1); }
+  45% { transform: translateY(-6px) rotate(-4deg) scale(1.08); }
+}
+
+.avatar-pupils {
+  transform-origin: 200px 219px;
+  transition: transform .28s ease;
+}
+
+.avatar-mouth path {
+  transition: opacity .07s linear;
+}
+
+.avatar-upper-lip {
+  opacity: .82;
+}
+
+.avatar-hand,
+.avatar-wrist {
+  filter: drop-shadow(0 2px 2px rgba(57,31,27,.1));
+}
+
+.avatar-thumb {
+  transform-box: fill-box;
+  transform-origin: 50% 100%;
+}
+
+.avatar-approval-hand {
+  display: none;
+  transform-origin: 291px 414px;
+}
+
+.avatar-arm,
+.avatar-forearm,
+.avatar-hand-rig {
+  transition: transform .62s cubic-bezier(.2,.82,.22,1.12);
+}
+
+.avatar-arm-left { transform-origin: 151px 383px; }
+.avatar-arm-right { transform-origin: 249px 383px; }
+.avatar-forearm-left { transform-origin: 129px 431px; }
+.avatar-forearm-right { transform-origin: 271px 431px; }
+.avatar-hand-rig-left { transform-origin: 129px 480px; }
+.avatar-hand-rig-right { transform-origin: 271px 480px; }
+
+.avatar-stage.speaking .avatar-head {
+  animation: avatarHeadTalk 1.25s ease-in-out infinite;
+}
+
+.avatar-stage.speaking .avatar-pupils {
+  animation: avatarEyeContact 3.4s ease-in-out infinite;
+}
+
+.avatar-stage[data-behavior="listening"] .avatar-head {
+  transform: translate(-2px,1px) rotate(-2.4deg);
+}
+
+.avatar-stage[data-behavior="listening"] .avatar-pupils {
+  transform: translate(-2px,1px);
+}
+
+.avatar-stage[data-behavior="listening"] .avatar-arm-left {
+  transform: rotate(-8deg);
+}
+
+.avatar-stage[data-behavior="listening"] .avatar-forearm-left {
+  transform: rotate(-138deg);
+}
+
+.avatar-stage[data-behavior="thinking"] .avatar-head {
+  transform: translate(2px,2px) rotate(3deg);
+}
+
+.avatar-stage[data-behavior="thinking"] .avatar-pupils {
+  transform: translate(4px,-3px);
+}
+
+.avatar-stage[data-behavior="thinking"] .avatar-arm-right {
+  transform: rotate(7deg);
+}
+
+.avatar-stage[data-behavior="thinking"] .avatar-forearm-right {
+  transform: rotate(150deg);
+}
+
+.avatar-stage[data-behavior="explain"] .avatar-head {
+  transform: translateY(-1px) rotate(-1deg);
+}
+
+.avatar-stage[data-behavior="explain"] .avatar-arm-left {
+  transform: rotate(18deg);
+}
+
+.avatar-stage[data-behavior="explain"] .avatar-forearm-left {
+  transform: rotate(-86deg);
+}
+
+.avatar-stage[data-behavior="speaking"] .avatar-arm-right {
+  animation: avatarConversationalArm 2.7s ease-in-out infinite;
+}
+
+.avatar-stage[data-behavior="speaking"] .avatar-forearm-right {
+  transform: rotate(22deg);
+}
+
+.avatar-stage[data-behavior="encourage"] .avatar-head {
+  transform: translate(-2px,1px) rotate(-3deg);
+}
+
+.avatar-stage[data-behavior="encourage"] .avatar-arm-left {
+  transform: rotate(7deg);
+}
+
+.avatar-stage[data-behavior="encourage"] .avatar-forearm-left {
+  transform: rotate(-112deg);
+}
+
+.avatar-stage[data-behavior="success"] .avatar-head {
+  animation: avatarNodNatural .72s ease-in-out 2;
+}
+
+.avatar-stage[data-behavior="success"] .avatar-arm-right {
+  opacity: 0;
+}
+
+.avatar-stage[data-behavior="success"] .avatar-forearm-right {
+  transform: rotate(145deg);
+}
+
+.avatar-stage[data-behavior="success"] .avatar-hand-rig-right {
+  transform: rotate(-145deg) scale(1.06);
+}
+
+.avatar-stage[data-behavior="success"] .avatar-thumb {
+  animation: avatarThumbUp .68s cubic-bezier(.2,.85,.25,1.25) 2;
+}
+
+.avatar-stage[data-behavior="success"] .avatar-approval-hand {
+  display: block;
+  animation: avatarApprovalPop .72s cubic-bezier(.2,.85,.25,1.2) 2;
+}
+
+.avatar-stage[data-behavior="celebrate"] .avatar-head {
+  animation: avatarCelebrateHead .78s ease-in-out 2;
+}
+
+.avatar-stage[data-behavior="celebrate"] .avatar-arm-left {
+  transform: rotate(15deg);
+}
+
+.avatar-stage[data-behavior="celebrate"] .avatar-arm-right {
+  transform: rotate(-15deg);
+}
+
+.avatar-stage[data-behavior="celebrate"] .avatar-forearm-left {
+  transform: rotate(-142deg);
+}
+
+.avatar-stage[data-behavior="celebrate"] .avatar-forearm-right {
+  transform: rotate(142deg);
+}
+
+.avatar-stage[data-behavior="celebrate"] .avatar-hand-rig-left { transform: rotate(142deg); }
+.avatar-stage[data-behavior="celebrate"] .avatar-hand-rig-right { transform: rotate(-142deg); }
+
+.avatar-stage[data-behavior="celebrate"] .avatar-thumb {
+  animation: avatarThumbCelebrate .72s cubic-bezier(.2,.85,.25,1.25) 2;
+}
+
+.avatar-stage[data-behavior="success"] .avatar-blush,
+.avatar-stage[data-behavior="celebrate"] .avatar-blush { opacity: .42; }
+
+.avatar-stage[data-behavior="success"] .avatar-brows,
+.avatar-stage[data-behavior="celebrate"] .avatar-brows { transform: translateY(-4px); }
+
+.avatar-stage[data-character="lukas"] .avatar-lashes { stroke-width: 2; opacity: .76; }
+.avatar-stage[data-character="lukas"] .avatar-upper-lip { opacity: .52; }
+.avatar-stage[data-character="weber"] .avatar-face-light { opacity: .72; }
+.avatar-stage[data-character="mia"] .avatar-blush { opacity: .27; }
+
+.avatar-stage[data-motion="calm"] .avatar-arm,
+.avatar-stage[data-motion="calm"] .avatar-forearm { transition-duration: .8s; }
+.avatar-stage[data-motion="calm"] .avatar-head { animation-duration: 7s; }
+.avatar-stage[data-motion="calm"][data-behavior="speaking"] .avatar-arm-right { animation: none; }
+.avatar-stage[data-motion="calm"][data-behavior="success"] .avatar-forearm-right { transform: rotate(128deg); }
+.avatar-stage[data-motion="calm"][data-behavior="success"] .avatar-hand-rig-right { transform: rotate(-128deg) scale(1.03); }
+.avatar-stage[data-motion="expressive"] .avatar-arm,
+.avatar-stage[data-motion="expressive"] .avatar-forearm { transition-duration: .44s; }
+.avatar-stage[data-motion="expressive"][data-behavior="explain"] .avatar-forearm-left { transform: rotate(-102deg); }
+.avatar-stage[data-motion="expressive"][data-behavior="success"] .avatar-forearm-right { transform: rotate(153deg); }
+.avatar-stage[data-motion="expressive"][data-behavior="success"] .avatar-hand-rig-right { transform: rotate(-153deg) scale(1.1); }
+
+@keyframes avatarHeadIdle {
+  0%,100% { transform: translate(0,0) rotate(0); }
+  45% { transform: translate(1px,-1px) rotate(.45deg); }
+  72% { transform: translate(-1px,0) rotate(-.3deg); }
+}
+
+@keyframes avatarHeadTalk {
+  0%,100% { transform: translateY(0) rotate(0); }
+  35% { transform: translateY(1.4px) rotate(.65deg); }
+  68% { transform: translateY(-1px) rotate(-.45deg); }
+}
+
+@keyframes avatarEyeContact {
+  0%,42%,100% { transform: translate(0,0); }
+  46%,57% { transform: translate(1.5px,-.5px); }
+  62%,72% { transform: translate(-1px,.5px); }
+}
+
+@keyframes avatarConversationalArm {
+  0%,100% { transform: rotate(-4deg); }
+  42% { transform: rotate(-10deg); }
+  70% { transform: rotate(-1deg); }
+}
+
+@keyframes avatarNodNatural {
+  0%,100% { transform: translateY(0) rotate(0); }
+  38% { transform: translateY(5px) rotate(1.4deg); }
+  68% { transform: translateY(-1px) rotate(-.5deg); }
+}
+
+@keyframes avatarCelebrateHead {
+  0%,100% { transform: translateY(0) rotate(0); }
+  35% { transform: translateY(-7px) rotate(-1.5deg); }
+  68% { transform: translateY(-2px) rotate(1deg); }
+}
+
+@keyframes avatarThumbUp {
+  0%,100% { transform: scale(1.08); }
+  50% { transform: scale(1.38); }
+}
+
+@keyframes avatarThumbCelebrate {
+  0%,100% { transform: scale(1.08); }
+  50% { transform: scale(1.36); }
+}
+
+@media (max-width:680px) {
+  .avatar-2d { transform: scale(1.24) translateY(5px); transform-origin: 50% 36%; }
+  .avatar-stage[data-behavior="explain"] .avatar-forearm-left { transform: rotate(-78deg); }
+  .avatar-stage[data-behavior="success"] .avatar-forearm-right { transform: rotate(135deg); }
+  .avatar-stage[data-behavior="success"] .avatar-hand-rig-right { transform: rotate(-135deg) scale(1.04); }
+}
+
+@media (prefers-reduced-motion:reduce) {
+  .avatar-head,.avatar-arm,.avatar-forearm,.avatar-hand-rig,.avatar-pupils,.avatar-thumb,.avatar-approval-hand { animation:none!important;transition:none!important; }
+}
