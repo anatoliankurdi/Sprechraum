@@ -4,9 +4,9 @@ Bu belge, mağaza sürümündeki yerel yapay zekâ dağıtım kararlarını sabi
 
 ## Kurulum akışı
 
-1. App Store ve Google Play'den yalnızca küçük uygulama kabuğu indirilir. Hedef ilk indirme 100 MB civarıdır.
+1. App Store ve Google Play'den yalnızca küçük uygulama kabuğu indirilir. Büyük dil modeli ve premium ses ağırlıkları mağaza paketine konmaz; hedef ilk indirme 100 MB civarıdır.
 2. İlk açılışta uygulama dili, gizlilik özeti, Wi-Fi ve boş alan kontrolü gösterilir.
-3. Gemma 3 1B quantized model uygulamanın özel depolama alanına indirilir.
+3. Kullanıcının açık onayından sonra Gemma 3 1B quantized model ve seçilen profesyonel yerel ses paketi uygulamanın özel depolama alanına indirilir.
 4. İndirme durdurulabilir, kaldığı yerden devam eder ve dosya özetiyle doğrulanır.
 5. Model hazır olduğunda Clara çevrimdışı çalışır. İnternet daha sonra zorunlu değildir.
 6. Arka plandaki kısa performans testi cihazı 4B için değerlendirir.
@@ -18,6 +18,8 @@ Bu belge, mağaza sürümündeki yerel yapay zekâ dağıtım kararlarını sabi
 | --- | ---: | --- | --- |
 | Gemma 3 1B | 1 GB | Temel ve varsayılan | Hızlı yanıt, düşük RAM ve pil kullanımı |
 | Gemma 3 4B | 4 GB | İsteğe bağlı gelişmiş | Daha doğal diyalog ve daha güçlü değerlendirme |
+
+Masaüstü geliştirme sürümü ayrıca Gemma 3 12B ve 27B katmanlarını gösterebilir. Bunlar yüksek RAM isteyen Ollama paketleridir; telefonlara önerilmez ve mağaza uygulamasının parçası değildir. Katalogdaki gerçek dosya boyutu, kurulu paketin Ollama bilgisinden okunur; sabit bir boyut varsayılmaz.
 
 4B kurulduktan sonra kullanıcı 1B'yi yedek olarak tutabilir veya depolama alanı kazanmak için silebilir. 4B silinirse uygulama kurulu 1B'ye döner; iki model de yoksa kurulum ekranı açılır.
 
@@ -46,6 +48,16 @@ Model indirme katmanı şunları desteklemelidir:
 - eski model sürümünü güvenli biçimde temizleme
 - indirme, doğrulama, hazır, güncelleme ve hata durumları
 
+Web prototipinde bu sözleşmenin masaüstü karşılığı yalnızca yerel Ollama API'sine bağlanır. Model adları güvenli katalogla sınırlandırılır; uzak bir Ollama adresine, rastgele model adına veya sessiz indirmeye izin verilmez. iOS/Android uygulamasında aynı ekran Ollama yerine uygulamanın yerel model yöneticisine bağlanır.
+
+## Profesyonel yerel ses paketi
+
+Ses motoru da uygulama kabuğundan ayrılır. İlk açılışta seçilen öğretmenin küçük ve lisans açısından dağıtıma uygun ses paketi indirilir. Paket sürümlenir, SHA-256 ile doğrulanır ve model yöneticisindeki gibi duraklatma/devam etme desteği kullanır. Metin, ses ve öğrenci kayıtları sunucuya gönderilmez. Masaüstü prototipindeki Supertonic bağlantısı geliştirme içindir; mağaza sürümünde iOS/Android ile uyumlu yerel çalışma zamanı ayrıca paketlenmelidir.
+
+## İçerik paketleri
+
+B1 temel içerik uygulama kabuğunda veya küçük başlangıç paketinde tutulur. C1 kelimeleri, yeni gramer konuları, resimler ve sınav temaları modelden bağımsız içerik paketleridir. Böylece kullanıcı yalnızca ihtiyaç duyduğu seviyeyi indirir; içerik güncellemesi dil modelini veya öğrenci hafızasını değiştirmez.
+
 ## Öğrenci hafızası
 
 Öğrenci profili, kişisel bilgiler, çalışma geçmişi ve gelişim puanları model dosyasından tamamen ayrıdır. Model yükseltme, silme veya yeniden indirme işlemleri öğrenci hafızasını etkilemez. Hafıza cihazdaki şifreli uygulama veritabanında öğrenci kimliğine göre tutulur.
@@ -61,4 +73,10 @@ Model indirme katmanı şunları desteklemelidir:
 - aktif model
 - son bütünlük kontrolü ve güncelleme bilgisi
 
-Bu ekran gerçek mobil indirme motoru hazır olmadan web prototipine sahte işlev olarak eklenmeyecektir.
+Web/masaüstü prototipindeki ekran bugün Ollama'nın gerçek listeleme, indirme, etkinleştirme ve silme işlemlerini kullanır. Mobil uygulamada aynı görünüm ancak aşağıdaki yerel köprü işlemleri bağlandıktan sonra yayımlanır:
+
+- `list`: kurulu ve indirilebilir paketleri getirir
+- `download`, `pause`, `resume`: arka plan indirmesini yönetir
+- `activate`: doğrulanmış modeli etkinleştirir
+- `delete`: aktif olmayan modeli ve yalnızca onun dosyalarını siler
+- `status`: indirme yüzdesi, doğrulama ve hata durumunu bildirir

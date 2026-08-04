@@ -65,3 +65,9 @@ Sonra bilgisayarın yerel IP adresini kullanarak telefondan `http://BILGISAYAR-I
 Mevcut 2D avatar, Almanca harf ve ses gruplarına göre `A/E/I/O/U/M/F` ağız şekillerini değiştirir. Üretim sürümünde daha hassas fonem zamanlaması için yerel TTS motorunun fonem süreleri bu ağız şekillerine bağlanabilir.
 
 Mobil sürümde yapay zekâ modeli mağaza paketine gömülmeyecektir. Küçük uygulama ilk açılışta Gemma 3 1B modelini indirir; cihaz uygunluk testini geçen kullanıcılara isteğe bağlı Gemma 3 4B yükseltmesi sunulur. Ayrıntılı ve bağlayıcı uygulama planı için [mobil yapay zekâ mimarisi](MOBILE_AI_ARCHITECTURE.md) belgesine bakın.
+
+Ses modeli de mağaza paketine eklenmez. Mevcut statik uygulama dosyaları yaklaşık 17 MB'tır; `.supertonic-venv` ve kullanıcı önbelleğindeki yaklaşık 385 MB Supertonic modeli dağıtım paketinin dışındadır. Uygulama önce cihazın çevrimdışı Almanca sesini kullanabilir, kullanıcı isterse ayarlardan kaliteli yerel ses paketini sonradan indirebilir. iOS/Android üretiminde bu model uygulamanın `Application Support` alanına indirilip yerel native çalışma zamanı üzerinden çalıştırılmalıdır.
+
+## Sonraki A1 tasarım hedefi
+
+A1 dersleri tamamlanırken başka bir uygulamanın ekranları kopyalanmadan güçlü mikro-ders yaklaşımı Sprechraum'un özgün kimliğiyle uygulanacak: ekranda tek ve net görev, görünür ilerleme, doğru/yanlış cevaba anlamlı karakter hareketi, ders sonunda hataların yeniden çalışılması, çevrimdışı Almanca ses ve Clara ile kısa konuşma pratiği. İlk kapsam selamlaşma, isim sorma ve basit kendini tanıtma dersleri olacak.

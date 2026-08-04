@@ -98,7 +98,13 @@ private struct SprechraumWebView: UIViewRepresentable {
         webView.scrollView.backgroundColor = .white
         webView.scrollView.contentInsetAdjustmentBehavior = .never
 
-        if let url = URL(string: "http://127.0.0.1:4173/?v=34&native=ios") {
+        #if targetEnvironment(simulator)
+        let serverAddress = "127.0.0.1"
+        #else
+        let serverAddress = "192.168.178.26"
+        #endif
+
+        if let url = URL(string: "http://\(serverAddress):4173/?v=59&native=ios") {
             webView.load(URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData))
         }
         return webView

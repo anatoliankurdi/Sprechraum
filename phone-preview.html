@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Sprechraum · Telefon Önizlemesi</title>
+  <style>
+    :root{color-scheme:light}
+    *{box-sizing:border-box}
+    html,body{width:100%;min-height:100%;margin:0}
+    body{
+      display:grid;
+      place-items:start center;
+      min-height:100vh;
+      min-height:100dvh;
+      padding:24px;
+      overflow:auto;
+      background:radial-gradient(circle at 50% 12%,#eefaff 0,#e8f2f7 42%,#dce7ed 100%);
+      font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+    }
+    .phone{
+      position:relative;
+      width:390px;
+      height:844px;
+      max-width:100%;
+      max-height:none;
+      overflow:hidden;
+      border:0;
+      border-radius:38px;
+      background:#fff;
+      box-shadow:0 28px 80px rgba(35,66,83,.22),0 4px 12px rgba(35,66,83,.1);
+    }
+    iframe{display:block;width:100%;height:100%;border:0;background:#fff}
+    @media(max-width:430px){
+      body{display:block;padding:0;background:#fff;overflow:hidden}
+      .phone{width:100vw;height:100dvh;max-width:none;max-height:none;border:0;border-radius:0;box-shadow:none}
+    }
+  </style>
+</head>
+<body>
+  <main class="phone" aria-label="Sprechraum telefon önizlemesi">
+    <iframe src="/index.html?build=v87-glb-intro&amp;phone=1" title="Sprechraum mobil uygulaması" allow="microphone; autoplay"></iframe>
+  </main>
+</body>
+</html>
