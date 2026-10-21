@@ -1,0 +1,930 @@
+{
+ "id": "sprechraum-themen",
+ "name": "Sprechraum Themen",
+ "type": "builtin",
+ "size": "eingebaut",
+ "chars": 0,
+ "text": "",
+ "themes": [
+  {
+   "id": "sr01",
+   "title": "Der 50. Geburtstag einer Kollegin",
+   "ownTitle": true,
+   "task": "Ihre Kollegin Sabine wird nächste Woche 50 Jahre alt. Sie und Ihr Partner möchten im Team eine kleine Feier für sie organisieren. Planen Sie gemeinsam: ❖ Geschenk ❖ Wer bezahlt? ❖ Verkehrsmittel ❖ Überraschung",
+   "text": "Der 50. Geburtstag einer Kollegin\nIhre Kollegin Sabine wird nächste Woche 50 Jahre alt. Sie und Ihr Partner möchten im Team eine kleine Feier für sie organisieren. Planen Sie gemeinsam: ❖ Geschenk ❖ Wer bezahlt? ❖ Verkehrsmittel ❖ Überraschung\nA: Hallo! Hast du schon gehört? Sabine wird nächste Woche 50.\nB: Hallo! Ja, genau. Wir sollten etwas Schönes für sie planen.\nA: Wie wäre es mit einem Gutschein für ein schönes Restaurant als Geschenk?\nB: Ein Gutschein ist gut, aber vielleicht schenken wir ihr Blumen und ein Buch?\nA: Ich schlage vor, dass jeder im Team zehn Euro gibt.\nB: Zehn Euro pro Person finde ich in Ordnung. Ich sammle das Geld.\nA: Wir könnten zusammen mit dem Bus fahren, dann muss niemand Auto fahren.\nB: Mit dem Bus ist gut. Wir treffen uns um 18 Uhr an der Haltestelle.\nA: Als Überraschung könnten wir ihr Büro mit Luftballons dekorieren.\nB: Luftballons sind super. Ich bringe auch eine große Karte mit.\nA: Gut, dann haben wir alles geplant. Bis morgen und schönen Tag noch!\nB: Prima, dann machen wir es so. Bis bald!",
+   "roles": {
+    "A": [
+     "Hallo! Hast du schon gehört? Sabine wird nächste Woche 50.",
+     "Wie wäre es mit einem Gutschein für ein schönes Restaurant als Geschenk?",
+     "Ich schlage vor, dass jeder im Team zehn Euro gibt.",
+     "Wir könnten zusammen mit dem Bus fahren, dann muss niemand Auto fahren.",
+     "Als Überraschung könnten wir ihr Büro mit Luftballons dekorieren.",
+     "Gut, dann haben wir alles geplant. Bis morgen und schönen Tag noch!"
+    ],
+    "B": [
+     "Hallo! Ja, genau. Wir sollten etwas Schönes für sie planen.",
+     "Ein Gutschein ist gut, aber vielleicht schenken wir ihr Blumen und ein Buch?",
+     "Zehn Euro pro Person finde ich in Ordnung. Ich sammle das Geld.",
+     "Mit dem Bus ist gut. Wir treffen uns um 18 Uhr an der Haltestelle.",
+     "Luftballons sind super. Ich bringe auch eine große Karte mit.",
+     "Prima, dann machen wir es so. Bis bald!"
+    ]
+   },
+   "dialogue": [
+    "Hallo! Hast du schon gehört? Sabine wird nächste Woche 50.",
+    "Hallo! Ja, genau. Wir sollten etwas Schönes für sie planen.",
+    "Wie wäre es mit einem Gutschein für ein schönes Restaurant als Geschenk?",
+    "Ein Gutschein ist gut, aber vielleicht schenken wir ihr Blumen und ein Buch?",
+    "Ich schlage vor, dass jeder im Team zehn Euro gibt.",
+    "Zehn Euro pro Person finde ich in Ordnung. Ich sammle das Geld.",
+    "Wir könnten zusammen mit dem Bus fahren, dann muss niemand Auto fahren.",
+    "Mit dem Bus ist gut. Wir treffen uns um 18 Uhr an der Haltestelle.",
+    "Als Überraschung könnten wir ihr Büro mit Luftballons dekorieren.",
+    "Luftballons sind super. Ich bringe auch eine große Karte mit.",
+    "Gut, dann haben wir alles geplant. Bis morgen und schönen Tag noch!",
+    "Prima, dann machen wir es so. Bis bald!"
+   ],
+   "keywords": []
+  },
+  {
+   "id": "sr02",
+   "title": "Gemeinsam Deutsch lernen",
+   "ownTitle": true,
+   "task": "Sie und Ihr Partner haben bald eine Deutschprüfung. Sie möchten sich regelmäßig treffen und zusammen lernen. Planen Sie gemeinsam: ❖ Wann trefft ihr euch? ❖ Wo lernt ihr? ❖ Aktivitäten: Was üben wir? ❖ Lernmaterial",
+   "text": "Gemeinsam Deutsch lernen\nSie und Ihr Partner haben bald eine Deutschprüfung. Sie möchten sich regelmäßig treffen und zusammen lernen. Planen Sie gemeinsam: ❖ Wann trefft ihr euch? ❖ Wo lernt ihr? ❖ Aktivitäten: Was üben wir? ❖ Lernmaterial\nA: Hallo! Wollen wir uns treffen und zusammen für die Prüfung lernen?\nB: Hallo! Gute Idee, allein lernen ist langweilig.\nA: Wie wäre es am Dienstag und Donnerstag um 17 Uhr?\nB: Dienstag passt mir, aber am Donnerstag arbeite ich lange. Geht auch Freitag?\nA: Wir könnten in der Stadtbibliothek lernen, dort ist es ruhig.\nB: Die Bibliothek ist gut, aber man darf dort nicht laut sprechen. Vielleicht bei mir zu Hause?\nA: Ich möchte zuerst das Sprechen üben, weil ich da unsicher bin.\nB: Einverstanden. Danach können wir Briefe schreiben üben.\nA: Ich bringe meine Übungsbücher mit. Kannst du einen Laptop mitbringen?\nB: Ja, ich bringe den Laptop und Kopfhörer für das Hören mit.\nA: Super, dann sehen wir uns am Dienstag. Bis dann!\nB: Alles klar, bis Dienstag!",
+   "roles": {
+    "A": [
+     "Hallo! Wollen wir uns treffen und zusammen für die Prüfung lernen?",
+     "Wie wäre es am Dienstag und Donnerstag um 17 Uhr?",
+     "Wir könnten in der Stadtbibliothek lernen, dort ist es ruhig.",
+     "Ich möchte zuerst das Sprechen üben, weil ich da unsicher bin.",
+     "Ich bringe meine Übungsbücher mit. Kannst du einen Laptop mitbringen?",
+     "Super, dann sehen wir uns am Dienstag. Bis dann!"
+    ],
+    "B": [
+     "Hallo! Gute Idee, allein lernen ist langweilig.",
+     "Dienstag passt mir, aber am Donnerstag arbeite ich lange. Geht auch Freitag?",
+     "Die Bibliothek ist gut, aber man darf dort nicht laut sprechen. Vielleicht bei mir zu Hause?",
+     "Einverstanden. Danach können wir Briefe schreiben üben.",
+     "Ja, ich bringe den Laptop und Kopfhörer für das Hören mit.",
+     "Alles klar, bis Dienstag!"
+    ]
+   },
+   "dialogue": [
+    "Hallo! Wollen wir uns treffen und zusammen für die Prüfung lernen?",
+    "Hallo! Gute Idee, allein lernen ist langweilig.",
+    "Wie wäre es am Dienstag und Donnerstag um 17 Uhr?",
+    "Dienstag passt mir, aber am Donnerstag arbeite ich lange. Geht auch Freitag?",
+    "Wir könnten in der Stadtbibliothek lernen, dort ist es ruhig.",
+    "Die Bibliothek ist gut, aber man darf dort nicht laut sprechen. Vielleicht bei mir zu Hause?",
+    "Ich möchte zuerst das Sprechen üben, weil ich da unsicher bin.",
+    "Einverstanden. Danach können wir Briefe schreiben üben.",
+    "Ich bringe meine Übungsbücher mit. Kannst du einen Laptop mitbringen?",
+    "Ja, ich bringe den Laptop und Kopfhörer für das Hören mit.",
+    "Super, dann sehen wir uns am Dienstag. Bis dann!",
+    "Alles klar, bis Dienstag!"
+   ],
+   "keywords": []
+  },
+  {
+   "id": "sr03",
+   "title": "Kinderbetreuung am Wochenende",
+   "ownTitle": true,
+   "task": "Eine Nachbarin muss am Samstag arbeiten. Sie und Ihr Partner passen den ganzen Tag auf ihre zwei Kinder auf. Planen Sie gemeinsam: ❖ Aktivitäten ❖ Essen und Getränke ❖ Wo? ❖ Was tun, wenn es regnet?",
+   "text": "Kinderbetreuung am Wochenende\nEine Nachbarin muss am Samstag arbeiten. Sie und Ihr Partner passen den ganzen Tag auf ihre zwei Kinder auf. Planen Sie gemeinsam: ❖ Aktivitäten ❖ Essen und Getränke ❖ Wo? ❖ Was tun, wenn es regnet?\nA: Hallo! Wir passen ja am Samstag auf die Kinder von Frau Yilmaz auf.\nB: Hallo! Ja, ich freue mich schon darauf.\nA: Am Vormittag könnten wir mit ihnen in den Park gehen.\nB: Der Park ist gut. Vielleicht gehen wir auch auf den Spielplatz.\nA: Zum Mittagessen kochen wir Nudeln, das essen Kinder gern.\nB: Nudeln sind gut. Und als Nachtisch backen wir zusammen einen Kuchen.\nA: Ich schlage vor, dass wir den Tag bei mir in der Wohnung verbringen.\nB: Deine Wohnung ist größer, das finde ich gut.\nA: Wenn es regnet, können wir Brettspiele spielen oder malen.\nB: Oder wir gehen ins Kindermuseum, das ist bei Regen ideal.\nA: Gut, dann ist alles klar. Bis Samstag!\nB: Einverstanden, bis Samstag!",
+   "roles": {
+    "A": [
+     "Hallo! Wir passen ja am Samstag auf die Kinder von Frau Yilmaz auf.",
+     "Am Vormittag könnten wir mit ihnen in den Park gehen.",
+     "Zum Mittagessen kochen wir Nudeln, das essen Kinder gern.",
+     "Ich schlage vor, dass wir den Tag bei mir in der Wohnung verbringen.",
+     "Wenn es regnet, können wir Brettspiele spielen oder malen.",
+     "Gut, dann ist alles klar. Bis Samstag!"
+    ],
+    "B": [
+     "Hallo! Ja, ich freue mich schon darauf.",
+     "Der Park ist gut. Vielleicht gehen wir auch auf den Spielplatz.",
+     "Nudeln sind gut. Und als Nachtisch backen wir zusammen einen Kuchen.",
+     "Deine Wohnung ist größer, das finde ich gut.",
+     "Oder wir gehen ins Kindermuseum, das ist bei Regen ideal.",
+     "Einverstanden, bis Samstag!"
+    ]
+   },
+   "dialogue": [
+    "Hallo! Wir passen ja am Samstag auf die Kinder von Frau Yilmaz auf.",
+    "Hallo! Ja, ich freue mich schon darauf.",
+    "Am Vormittag könnten wir mit ihnen in den Park gehen.",
+    "Der Park ist gut. Vielleicht gehen wir auch auf den Spielplatz.",
+    "Zum Mittagessen kochen wir Nudeln, das essen Kinder gern.",
+    "Nudeln sind gut. Und als Nachtisch backen wir zusammen einen Kuchen.",
+    "Ich schlage vor, dass wir den Tag bei mir in der Wohnung verbringen.",
+    "Deine Wohnung ist größer, das finde ich gut.",
+    "Wenn es regnet, können wir Brettspiele spielen oder malen.",
+    "Oder wir gehen ins Kindermuseum, das ist bei Regen ideal.",
+    "Gut, dann ist alles klar. Bis Samstag!",
+    "Einverstanden, bis Samstag!"
+   ],
+   "keywords": []
+  },
+  {
+   "id": "sr04",
+   "title": "Überraschungsparty für die Lehrerin",
+   "ownTitle": true,
+   "task": "Ihr Deutschkurs endet bald. Sie und Ihr Partner möchten für Ihre Lehrerin eine Überraschungsparty im Kursraum organisieren. Planen Sie gemeinsam: ❖ Wann ist die Party? ❖ Essen und Getränke ❖ Geschenk ❖ Wer hilft?",
+   "text": "Überraschungsparty für die Lehrerin\nIhr Deutschkurs endet bald. Sie und Ihr Partner möchten für Ihre Lehrerin eine Überraschungsparty im Kursraum organisieren. Planen Sie gemeinsam: ❖ Wann ist die Party? ❖ Essen und Getränke ❖ Geschenk ❖ Wer hilft?\nA: Hallo! Unser Kurs ist bald zu Ende. Sollen wir eine Party für Frau Becker machen?\nB: Hallo! Ja, das ist eine schöne Idee.\nA: Wie wäre es am letzten Kurstag nach dem Unterricht?\nB: Der letzte Tag ist gut, aber vielleicht in der Pause, damit sie nicht schon weg ist?\nA: Jeder könnte etwas zu essen mitbringen, zum Beispiel Salat oder Kuchen.\nB: Gute Idee. Ich kümmere mich um die Getränke, Saft und Wasser.\nA: Als Geschenk könnten wir ein Fotobuch mit Bildern vom Kurs machen.\nB: Ein Fotobuch ist sehr persönlich. Das gefällt ihr bestimmt.\nA: Ich frage Ali und Maria, ob sie beim Dekorieren helfen.\nB: Gut, und ich schreibe eine Nachricht in die Kursgruppe.\nA: Super, dann haben wir alles besprochen. Bis morgen!\nB: Prima, bis morgen!",
+   "roles": {
+    "A": [
+     "Hallo! Unser Kurs ist bald zu Ende. Sollen wir eine Party für Frau Becker machen?",
+     "Wie wäre es am letzten Kurstag nach dem Unterricht?",
+     "Jeder könnte etwas zu essen mitbringen, zum Beispiel Salat oder Kuchen.",
+     "Als Geschenk könnten wir ein Fotobuch mit Bildern vom Kurs machen.",
+     "Ich frage Ali und Maria, ob sie beim Dekorieren helfen.",
+     "Super, dann haben wir alles besprochen. Bis morgen!"
+    ],
+    "B": [
+     "Hallo! Ja, das ist eine schöne Idee.",
+     "Der letzte Tag ist gut, aber vielleicht in der Pause, damit sie nicht schon weg ist?",
+     "Gute Idee. Ich kümmere mich um die Getränke, Saft und Wasser.",
+     "Ein Fotobuch ist sehr persönlich. Das gefällt ihr bestimmt.",
+     "Gut, und ich schreibe eine Nachricht in die Kursgruppe.",
+     "Prima, bis morgen!"
+    ]
+   },
+   "dialogue": [
+    "Hallo! Unser Kurs ist bald zu Ende. Sollen wir eine Party für Frau Becker machen?",
+    "Hallo! Ja, das ist eine schöne Idee.",
+    "Wie wäre es am letzten Kurstag nach dem Unterricht?",
+    "Der letzte Tag ist gut, aber vielleicht in der Pause, damit sie nicht schon weg ist?",
+    "Jeder könnte etwas zu essen mitbringen, zum Beispiel Salat oder Kuchen.",
+    "Gute Idee. Ich kümmere mich um die Getränke, Saft und Wasser.",
+    "Als Geschenk könnten wir ein Fotobuch mit Bildern vom Kurs machen.",
+    "Ein Fotobuch ist sehr persönlich. Das gefällt ihr bestimmt.",
+    "Ich frage Ali und Maria, ob sie beim Dekorieren helfen.",
+    "Gut, und ich schreibe eine Nachricht in die Kursgruppe.",
+    "Super, dann haben wir alles besprochen. Bis morgen!",
+    "Prima, bis morgen!"
+   ],
+   "keywords": []
+  },
+  {
+   "id": "sr05",
+   "title": "Essen für den Kursabschluss vorbereiten",
+   "ownTitle": true,
+   "task": "Ihr Kurs feiert den Abschluss mit einem internationalen Buffet. Sie und Ihr Partner bereiten zusammen ein Gericht vor. Planen Sie gemeinsam: ❖ Was kochen? ❖ Wo kocht ihr? ❖ Wer kauft ein? ❖ Transport",
+   "text": "Essen für den Kursabschluss vorbereiten\nIhr Kurs feiert den Abschluss mit einem internationalen Buffet. Sie und Ihr Partner bereiten zusammen ein Gericht vor. Planen Sie gemeinsam: ❖ Was kochen? ❖ Wo kocht ihr? ❖ Wer kauft ein? ❖ Transport\nA: Hallo! Wir müssen ja zusammen etwas für das Buffet kochen.\nB: Hallo! Ja, gerne. Was möchtest du machen?\nA: Wie wäre es mit Linsensuppe? Die ist einfach und schmeckt allen.\nB: Suppe ist schwierig zu transportieren. Vielleicht machen wir lieber Börek?\nA: Wir könnten bei mir kochen, ich habe eine große Küche.\nB: Bei dir ist gut. Wann soll ich kommen?\nA: Ich kann am Freitag nach der Arbeit einkaufen gehen.\nB: Ich komme mit, dann können wir die Kosten teilen.\nA: Wir nehmen die Suppe in einem großen Topf mit dem Auto mit.\nB: Mit dem Auto ist am besten. Ich bringe eine Kiste mit.\nA: Gut, dann machen wir es so. Bis Freitag!\nB: Prima, bis Freitag!",
+   "roles": {
+    "A": [
+     "Hallo! Wir müssen ja zusammen etwas für das Buffet kochen.",
+     "Wie wäre es mit Linsensuppe? Die ist einfach und schmeckt allen.",
+     "Wir könnten bei mir kochen, ich habe eine große Küche.",
+     "Ich kann am Freitag nach der Arbeit einkaufen gehen.",
+     "Wir nehmen die Suppe in einem großen Topf mit dem Auto mit.",
+     "Gut, dann machen wir es so. Bis Freitag!"
+    ],
+    "B": [
+     "Hallo! Ja, gerne. Was möchtest du machen?",
+     "Suppe ist schwierig zu transportieren. Vielleicht machen wir lieber Börek?",
+     "Bei dir ist gut. Wann soll ich kommen?",
+     "Ich komme mit, dann können wir die Kosten teilen.",
+     "Mit dem Auto ist am besten. Ich bringe eine Kiste mit.",
+     "Prima, bis Freitag!"
+    ]
+   },
+   "dialogue": [
+    "Hallo! Wir müssen ja zusammen etwas für das Buffet kochen.",
+    "Hallo! Ja, gerne. Was möchtest du machen?",
+    "Wie wäre es mit Linsensuppe? Die ist einfach und schmeckt allen.",
+    "Suppe ist schwierig zu transportieren. Vielleicht machen wir lieber Börek?",
+    "Wir könnten bei mir kochen, ich habe eine große Küche.",
+    "Bei dir ist gut. Wann soll ich kommen?",
+    "Ich kann am Freitag nach der Arbeit einkaufen gehen.",
+    "Ich komme mit, dann können wir die Kosten teilen.",
+    "Wir nehmen die Suppe in einem großen Topf mit dem Auto mit.",
+    "Mit dem Auto ist am besten. Ich bringe eine Kiste mit.",
+    "Gut, dann machen wir es so. Bis Freitag!",
+    "Prima, bis Freitag!"
+   ],
+   "keywords": []
+  },
+  {
+   "id": "sr06",
+   "title": "Ausflug am Wochenende",
+   "ownTitle": true,
+   "task": "Sie und Ihr Partner möchten am Wochenende zusammen einen Ausflug machen. Planen Sie gemeinsam: ❖ Wohin fahrt ihr? ❖ Verkehrsmittel ❖ Was mitnehmen? ❖ Wann? Termin",
+   "text": "Ausflug am Wochenende\nSie und Ihr Partner möchten am Wochenende zusammen einen Ausflug machen. Planen Sie gemeinsam: ❖ Wohin fahrt ihr? ❖ Verkehrsmittel ❖ Was mitnehmen? ❖ Wann? Termin\nA: Hallo! Hast du am Wochenende Zeit für einen Ausflug?\nB: Hallo! Ja, ich habe Zeit. Was schlägst du vor?\nA: Wir könnten an den Rhein fahren und dort wandern.\nB: Wandern ist schön, aber nicht zu lang, bitte. Vielleicht zehn Kilometer?\nA: Ich schlage vor, dass wir mit dem Zug fahren. Das ist entspannter.\nB: Mit dem Zug ist gut, mit dem Wochenendticket ist es auch billig.\nA: Wir sollten Wasser, Brote und eine Regenjacke mitnehmen.\nB: Ich bringe Obst und eine Kamera mit.\nA: Wie wäre es, wenn wir am Samstag um acht Uhr losfahren?\nB: Acht Uhr ist mir zu früh. Geht auch neun Uhr?\nA: Super, dann treffen wir uns am Bahnhof. Bis Samstag!\nB: Abgemacht, bis Samstag!",
+   "roles": {
+    "A": [
+     "Hallo! Hast du am Wochenende Zeit für einen Ausflug?",
+     "Wir könnten an den Rhein fahren und dort wandern.",
+     "Ich schlage vor, dass wir mit dem Zug fahren. Das ist entspannter.",
+     "Wir sollten Wasser, Brote und eine Regenjacke mitnehmen.",
+     "Wie wäre es, wenn wir am Samstag um acht Uhr losfahren?",
+     "Super, dann treffen wir uns am Bahnhof. Bis Samstag!"
+    ],
+    "B": [
+     "Hallo! Ja, ich habe Zeit. Was schlägst du vor?",
+     "Wandern ist schön, aber nicht zu lang, bitte. Vielleicht zehn Kilometer?",
+     "Mit dem Zug ist gut, mit dem Wochenendticket ist es auch billig.",
+     "Ich bringe Obst und eine Kamera mit.",
+     "Acht Uhr ist mir zu früh. Geht auch neun Uhr?",
+     "Abgemacht, bis Samstag!"
+    ]
+   },
+   "dialogue": [
+    "Hallo! Hast du am Wochenende Zeit für einen Ausflug?",
+    "Hallo! Ja, ich habe Zeit. Was schlägst du vor?",
+    "Wir könnten an den Rhein fahren und dort wandern.",
+    "Wandern ist schön, aber nicht zu lang, bitte. Vielleicht zehn Kilometer?",
+    "Ich schlage vor, dass wir mit dem Zug fahren. Das ist entspannter.",
+    "Mit dem Zug ist gut, mit dem Wochenendticket ist es auch billig.",
+    "Wir sollten Wasser, Brote und eine Regenjacke mitnehmen.",
+    "Ich bringe Obst und eine Kamera mit.",
+    "Wie wäre es, wenn wir am Samstag um acht Uhr losfahren?",
+    "Acht Uhr ist mir zu früh. Geht auch neun Uhr?",
+    "Super, dann treffen wir uns am Bahnhof. Bis Samstag!",
+    "Abgemacht, bis Samstag!"
+   ],
+   "keywords": []
+  },
+  {
+   "id": "sr07",
+   "title": "Hoffest im Wohnhaus",
+   "ownTitle": true,
+   "task": "Im Sommer soll es im Innenhof Ihres Wohnhauses ein Fest für alle Nachbarn geben. Sie und Ihr Partner organisieren es. Planen Sie gemeinsam: ❖ Wann ist das Fest? ❖ Essen und Getränke ❖ Musik und Programm ❖ Wie informiert ihr die Nachbarn?",
+   "text": "Hoffest im Wohnhaus\nIm Sommer soll es im Innenhof Ihres Wohnhauses ein Fest für alle Nachbarn geben. Sie und Ihr Partner organisieren es. Planen Sie gemeinsam: ❖ Wann ist das Fest? ❖ Essen und Getränke ❖ Musik und Programm ❖ Wie informiert ihr die Nachbarn?\nA: Hallo! Wollen wir dieses Jahr ein Hoffest für alle Nachbarn machen?\nB: Hallo! Ja, das ist eine tolle Idee. Viele kennen sich noch nicht.\nA: Wie wäre es am letzten Samstag im Juni am Nachmittag?\nB: Ende Juni ist gut, dann ist das Wetter meistens schön.\nA: Jede Familie bringt etwas zu essen mit, und wir grillen zusammen.\nB: Grillen ist super. Ich frage, ob jemand einen Grill hat.\nA: Für die Kinder könnten wir Spiele organisieren, für die Erwachsenen Musik.\nB: Herr Schulz spielt Gitarre, vielleicht kann er Musik machen.\nA: Wir hängen einen Zettel an die Haustür und schreiben in die Hausgruppe.\nB: Zettel und Hausgruppe, genau. Ich frage auch den Hausmeister.\nA: Gut, dann fange ich mit dem Zettel an. Bis bald!\nB: Prima, bis bald!",
+   "roles": {
+    "A": [
+     "Hallo! Wollen wir dieses Jahr ein Hoffest für alle Nachbarn machen?",
+     "Wie wäre es am letzten Samstag im Juni am Nachmittag?",
+     "Jede Familie bringt etwas zu essen mit, und wir grillen zusammen.",
+     "Für die Kinder könnten wir Spiele organisieren, für die Erwachsenen Musik.",
+     "Wir hängen einen Zettel an die Haustür und schreiben in die Hausgruppe.",
+     "Gut, dann fange ich mit dem Zettel an. Bis bald!"
+    ],
+    "B": [
+     "Hallo! Ja, das ist eine tolle Idee. Viele kennen sich noch nicht.",
+     "Ende Juni ist gut, dann ist das Wetter meistens schön.",
+     "Grillen ist super. Ich frage, ob jemand einen Grill hat.",
+     "Herr Schulz spielt Gitarre, vielleicht kann er Musik machen.",
+     "Zettel und Hausgruppe, genau. Ich frage auch den Hausmeister.",
+     "Prima, bis bald!"
+    ]
+   },
+   "dialogue": [
+    "Hallo! Wollen wir dieses Jahr ein Hoffest für alle Nachbarn machen?",
+    "Hallo! Ja, das ist eine tolle Idee. Viele kennen sich noch nicht.",
+    "Wie wäre es am letzten Samstag im Juni am Nachmittag?",
+    "Ende Juni ist gut, dann ist das Wetter meistens schön.",
+    "Jede Familie bringt etwas zu essen mit, und wir grillen zusammen.",
+    "Grillen ist super. Ich frage, ob jemand einen Grill hat.",
+    "Für die Kinder könnten wir Spiele organisieren, für die Erwachsenen Musik.",
+    "Herr Schulz spielt Gitarre, vielleicht kann er Musik machen.",
+    "Wir hängen einen Zettel an die Haustür und schreiben in die Hausgruppe.",
+    "Zettel und Hausgruppe, genau. Ich frage auch den Hausmeister.",
+    "Gut, dann fange ich mit dem Zettel an. Bis bald!",
+    "Prima, bis bald!"
+   ],
+   "keywords": []
+  },
+  {
+   "id": "sr08",
+   "title": "Abschiedsfeier zur Rente",
+   "ownTitle": true,
+   "task": "Ein älterer Kollege geht nach 30 Jahren in Rente. Sie und Ihr Partner planen eine Abschiedsfeier. Planen Sie gemeinsam: ❖ Wo feiert ihr? ❖ Geschenk ❖ Wer hält eine Rede? ❖ Wer bezahlt?",
+   "text": "Abschiedsfeier zur Rente\nEin älterer Kollege geht nach 30 Jahren in Rente. Sie und Ihr Partner planen eine Abschiedsfeier. Planen Sie gemeinsam: ❖ Wo feiert ihr? ❖ Geschenk ❖ Wer hält eine Rede? ❖ Wer bezahlt?\nA: Hallo! Herr Wagner geht nächsten Monat in Rente. Wir sollten eine Feier planen.\nB: Hallo! Ja, nach so vielen Jahren muss das eine schöne Feier sein.\nA: Wir könnten im Pausenraum der Firma feiern, dann können alle kommen.\nB: Der Pausenraum ist ein bisschen klein. Vielleicht im Restaurant nebenan?\nA: Er fährt gern Fahrrad. Wie wäre es mit einer neuen Fahrradtasche?\nB: Eine Fahrradtasche ist praktisch. Vielleicht noch eine Karte von allen dazu.\nA: Ich finde, unsere Chefin sollte eine kurze Rede halten.\nB: Ja, und danach kann jemand aus dem Team etwas Lustiges erzählen.\nA: Die Firma bezahlt bestimmt das Essen, und das Geschenk bezahlen wir zusammen.\nB: Einverstanden. Ich frage in der Buchhaltung nach.\nA: Gut, dann spreche ich mit der Chefin. Bis morgen!\nB: Prima, bis morgen!",
+   "roles": {
+    "A": [
+     "Hallo! Herr Wagner geht nächsten Monat in Rente. Wir sollten eine Feier planen.",
+     "Wir könnten im Pausenraum der Firma feiern, dann können alle kommen.",
+     "Er fährt gern Fahrrad. Wie wäre es mit einer neuen Fahrradtasche?",
+     "Ich finde, unsere Chefin sollte eine kurze Rede halten.",
+     "Die Firma bezahlt bestimmt das Essen, und das Geschenk bezahlen wir zusammen.",
+     "Gut, dann spreche ich mit der Chefin. Bis morgen!"
+    ],
+    "B": [
+     "Hallo! Ja, nach so vielen Jahren muss das eine schöne Feier sein.",
+     "Der Pausenraum ist ein bisschen klein. Vielleicht im Restaurant nebenan?",
+     "Eine Fahrradtasche ist praktisch. Vielleicht noch eine Karte von allen dazu.",
+     "Ja, und danach kann jemand aus dem Team etwas Lustiges erzählen.",
+     "Einverstanden. Ich frage in der Buchhaltung nach.",
+     "Prima, bis morgen!"
+    ]
+   },
+   "dialogue": [
+    "Hallo! Herr Wagner geht nächsten Monat in Rente. Wir sollten eine Feier planen.",
+    "Hallo! Ja, nach so vielen Jahren muss das eine schöne Feier sein.",
+    "Wir könnten im Pausenraum der Firma feiern, dann können alle kommen.",
+    "Der Pausenraum ist ein bisschen klein. Vielleicht im Restaurant nebenan?",
+    "Er fährt gern Fahrrad. Wie wäre es mit einer neuen Fahrradtasche?",
+    "Eine Fahrradtasche ist praktisch. Vielleicht noch eine Karte von allen dazu.",
+    "Ich finde, unsere Chefin sollte eine kurze Rede halten.",
+    "Ja, und danach kann jemand aus dem Team etwas Lustiges erzählen.",
+    "Die Firma bezahlt bestimmt das Essen, und das Geschenk bezahlen wir zusammen.",
+    "Einverstanden. Ich frage in der Buchhaltung nach.",
+    "Gut, dann spreche ich mit der Chefin. Bis morgen!",
+    "Prima, bis morgen!"
+   ],
+   "keywords": []
+  },
+  {
+   "id": "sr09",
+   "title": "Dankeschön-Geschenk für die Lehrkraft",
+   "ownTitle": true,
+   "task": "Ihre Lehrerin hat Ihnen im Kurs sehr geholfen. Sie und Ihr Partner möchten ihr ein Geschenk machen. Planen Sie gemeinsam: ❖ Geschenk ❖ Wie viel darf es kosten? ❖ Wann übergebt ihr das Geschenk? ❖ Wer schreibt die Karte?",
+   "text": "Dankeschön-Geschenk für die Lehrkraft\nIhre Lehrerin hat Ihnen im Kurs sehr geholfen. Sie und Ihr Partner möchten ihr ein Geschenk machen. Planen Sie gemeinsam: ❖ Geschenk ❖ Wie viel darf es kosten? ❖ Wann übergebt ihr das Geschenk? ❖ Wer schreibt die Karte?\nA: Hallo! Ich möchte unserer Lehrerin danke sagen. Machst du mit?\nB: Hallo! Ja, natürlich, sie war wirklich toll.\nA: Sie trinkt jeden Tag Tee. Wir könnten ihr eine schöne Teekanne schenken.\nB: Eine Teekanne ist gut. Oder ein Gutschein für eine Buchhandlung?\nA: Ich schlage vor, dass es nicht mehr als 30 Euro kostet.\nB: 30 Euro sind in Ordnung, wenn alle aus dem Kurs mitmachen.\nA: Wir geben es ihr am letzten Kurstag am Ende der Stunde.\nB: Am Ende der Stunde ist gut, dann haben wir mehr Zeit.\nA: Kannst du die Karte schreiben? Deine Schrift ist schöner.\nB: Gern, und alle aus dem Kurs unterschreiben die Karte.\nA: Super, dann kaufe ich das Geschenk am Wochenende. Tschüss!\nB: Prima, schönes Wochenende!",
+   "roles": {
+    "A": [
+     "Hallo! Ich möchte unserer Lehrerin danke sagen. Machst du mit?",
+     "Sie trinkt jeden Tag Tee. Wir könnten ihr eine schöne Teekanne schenken.",
+     "Ich schlage vor, dass es nicht mehr als 30 Euro kostet.",
+     "Wir geben es ihr am letzten Kurstag am Ende der Stunde.",
+     "Kannst du die Karte schreiben? Deine Schrift ist schöner.",
+     "Super, dann kaufe ich das Geschenk am Wochenende. Tschüss!"
+    ],
+    "B": [
+     "Hallo! Ja, natürlich, sie war wirklich toll.",
+     "Eine Teekanne ist gut. Oder ein Gutschein für eine Buchhandlung?",
+     "30 Euro sind in Ordnung, wenn alle aus dem Kurs mitmachen.",
+     "Am Ende der Stunde ist gut, dann haben wir mehr Zeit.",
+     "Gern, und alle aus dem Kurs unterschreiben die Karte.",
+     "Prima, schönes Wochenende!"
+    ]
+   },
+   "dialogue": [
+    "Hallo! Ich möchte unserer Lehrerin danke sagen. Machst du mit?",
+    "Hallo! Ja, natürlich, sie war wirklich toll.",
+    "Sie trinkt jeden Tag Tee. Wir könnten ihr eine schöne Teekanne schenken.",
+    "Eine Teekanne ist gut. Oder ein Gutschein für eine Buchhandlung?",
+    "Ich schlage vor, dass es nicht mehr als 30 Euro kostet.",
+    "30 Euro sind in Ordnung, wenn alle aus dem Kurs mitmachen.",
+    "Wir geben es ihr am letzten Kurstag am Ende der Stunde.",
+    "Am Ende der Stunde ist gut, dann haben wir mehr Zeit.",
+    "Kannst du die Karte schreiben? Deine Schrift ist schöner.",
+    "Gern, und alle aus dem Kurs unterschreiben die Karte.",
+    "Super, dann kaufe ich das Geschenk am Wochenende. Tschüss!",
+    "Prima, schönes Wochenende!"
+   ],
+   "keywords": []
+  },
+  {
+   "id": "sr10",
+   "title": "Einweihungsparty",
+   "ownTitle": true,
+   "task": "Ihr Partner und Sie sind zusammen in eine neue Wohnung gezogen und möchten eine Einweihungsparty geben. Planen Sie gemeinsam: ❖ Wann ist die Party? ❖ Wen einladen? ❖ Essen und Getränke ❖ Was macht ihr mit den Nachbarn?",
+   "text": "Einweihungsparty\nIhr Partner und Sie sind zusammen in eine neue Wohnung gezogen und möchten eine Einweihungsparty geben. Planen Sie gemeinsam: ❖ Wann ist die Party? ❖ Wen einladen? ❖ Essen und Getränke ❖ Was macht ihr mit den Nachbarn?\nA: Hallo! Jetzt ist die Wohnung fertig. Wollen wir eine Einweihungsparty machen?\nB: Hallo! Ja, unbedingt. Wir haben so viel gearbeitet.\nA: Wie wäre es am Samstag in zwei Wochen ab 19 Uhr?\nB: Samstag ist gut, aber nicht zu spät, sonst wird es zu laut.\nA: Wir laden unsere Freunde, die Familie und die Kollegen ein.\nB: Nicht zu viele Leute, die Wohnung ist nicht so groß. Vielleicht zwanzig?\nA: Wir könnten Pizza bestellen und Getränke selbst kaufen.\nB: Pizza ist einfach. Ich mache noch einen großen Salat.\nA: Wir sollten die Nachbarn informieren, damit sie sich nicht über die Musik ärgern.\nB: Wir könnten die Nachbarn auch einladen. Dann gibt es keinen Ärger.\nA: Gut, dann schreibe ich die Einladungen. Bis später!\nB: Super, bis später!",
+   "roles": {
+    "A": [
+     "Hallo! Jetzt ist die Wohnung fertig. Wollen wir eine Einweihungsparty machen?",
+     "Wie wäre es am Samstag in zwei Wochen ab 19 Uhr?",
+     "Wir laden unsere Freunde, die Familie und die Kollegen ein.",
+     "Wir könnten Pizza bestellen und Getränke selbst kaufen.",
+     "Wir sollten die Nachbarn informieren, damit sie sich nicht über die Musik ärgern.",
+     "Gut, dann schreibe ich die Einladungen. Bis später!"
+    ],
+    "B": [
+     "Hallo! Ja, unbedingt. Wir haben so viel gearbeitet.",
+     "Samstag ist gut, aber nicht zu spät, sonst wird es zu laut.",
+     "Nicht zu viele Leute, die Wohnung ist nicht so groß. Vielleicht zwanzig?",
+     "Pizza ist einfach. Ich mache noch einen großen Salat.",
+     "Wir könnten die Nachbarn auch einladen. Dann gibt es keinen Ärger.",
+     "Super, bis später!"
+    ]
+   },
+   "dialogue": [
+    "Hallo! Jetzt ist die Wohnung fertig. Wollen wir eine Einweihungsparty machen?",
+    "Hallo! Ja, unbedingt. Wir haben so viel gearbeitet.",
+    "Wie wäre es am Samstag in zwei Wochen ab 19 Uhr?",
+    "Samstag ist gut, aber nicht zu spät, sonst wird es zu laut.",
+    "Wir laden unsere Freunde, die Familie und die Kollegen ein.",
+    "Nicht zu viele Leute, die Wohnung ist nicht so groß. Vielleicht zwanzig?",
+    "Wir könnten Pizza bestellen und Getränke selbst kaufen.",
+    "Pizza ist einfach. Ich mache noch einen großen Salat.",
+    "Wir sollten die Nachbarn informieren, damit sie sich nicht über die Musik ärgern.",
+    "Wir könnten die Nachbarn auch einladen. Dann gibt es keinen Ärger.",
+    "Gut, dann schreibe ich die Einladungen. Bis später!",
+    "Super, bis später!"
+   ],
+   "keywords": []
+  },
+  {
+   "id": "sr11",
+   "title": "Das Heimatland vorstellen",
+   "ownTitle": true,
+   "task": "In Ihrem Kurs gibt es einen Kulturabend. Sie und Ihr Partner stellen zusammen ein Land vor. Planen Sie gemeinsam: ❖ Welches Land? ❖ Fotos und Informationen ❖ Essen und Getränke ❖ Wer macht was?",
+   "text": "Das Heimatland vorstellen\nIn Ihrem Kurs gibt es einen Kulturabend. Sie und Ihr Partner stellen zusammen ein Land vor. Planen Sie gemeinsam: ❖ Welches Land? ❖ Fotos und Informationen ❖ Essen und Getränke ❖ Wer macht was?\nA: Hallo! Wir sollen beim Kulturabend zusammen ein Land vorstellen.\nB: Hallo! Ja, ich habe schon davon gehört.\nA: Wie wäre es mit der Türkei? Ich kenne das Land sehr gut.\nB: Die Türkei ist gut. Wir können auch über die Sprache sprechen.\nA: Wir könnten Fotos von Städten und Landschaften zeigen.\nB: Fotos sind schön. Vielleicht spielen wir auch ein bisschen Musik?\nA: Ich bringe Baklava und türkischen Tee mit.\nB: Baklava ist super. Ich bringe noch Ayran mit.\nA: Ich mache die Präsentation, und du erzählst etwas über die Feste.\nB: Einverstanden. Ich suche Informationen über Bayram.\nA: Gut, dann treffen wir uns nächste Woche zum Üben. Tschüss!\nB: Prima, bis nächste Woche!",
+   "roles": {
+    "A": [
+     "Hallo! Wir sollen beim Kulturabend zusammen ein Land vorstellen.",
+     "Wie wäre es mit der Türkei? Ich kenne das Land sehr gut.",
+     "Wir könnten Fotos von Städten und Landschaften zeigen.",
+     "Ich bringe Baklava und türkischen Tee mit.",
+     "Ich mache die Präsentation, und du erzählst etwas über die Feste.",
+     "Gut, dann treffen wir uns nächste Woche zum Üben. Tschüss!"
+    ],
+    "B": [
+     "Hallo! Ja, ich habe schon davon gehört.",
+     "Die Türkei ist gut. Wir können auch über die Sprache sprechen.",
+     "Fotos sind schön. Vielleicht spielen wir auch ein bisschen Musik?",
+     "Baklava ist super. Ich bringe noch Ayran mit.",
+     "Einverstanden. Ich suche Informationen über Bayram.",
+     "Prima, bis nächste Woche!"
+    ]
+   },
+   "dialogue": [
+    "Hallo! Wir sollen beim Kulturabend zusammen ein Land vorstellen.",
+    "Hallo! Ja, ich habe schon davon gehört.",
+    "Wie wäre es mit der Türkei? Ich kenne das Land sehr gut.",
+    "Die Türkei ist gut. Wir können auch über die Sprache sprechen.",
+    "Wir könnten Fotos von Städten und Landschaften zeigen.",
+    "Fotos sind schön. Vielleicht spielen wir auch ein bisschen Musik?",
+    "Ich bringe Baklava und türkischen Tee mit.",
+    "Baklava ist super. Ich bringe noch Ayran mit.",
+    "Ich mache die Präsentation, und du erzählst etwas über die Feste.",
+    "Einverstanden. Ich suche Informationen über Bayram.",
+    "Gut, dann treffen wir uns nächste Woche zum Üben. Tschüss!",
+    "Prima, bis nächste Woche!"
+   ],
+   "keywords": []
+  },
+  {
+   "id": "sr12",
+   "title": "Abschiedsparty im Deutschkurs",
+   "ownTitle": true,
+   "task": "Ein Kursteilnehmer zieht in eine andere Stadt. Sie und Ihr Partner planen eine kleine Abschiedsparty im Kurs. Planen Sie gemeinsam: ❖ Wann ist die Party? ❖ Geschenk ❖ Essen und Getränke ❖ Wer bezahlt?",
+   "text": "Abschiedsparty im Deutschkurs\nEin Kursteilnehmer zieht in eine andere Stadt. Sie und Ihr Partner planen eine kleine Abschiedsparty im Kurs. Planen Sie gemeinsam: ❖ Wann ist die Party? ❖ Geschenk ❖ Essen und Getränke ❖ Wer bezahlt?\nA: Hallo! Marco zieht nächsten Monat nach Hamburg. Sollen wir eine Abschiedsparty machen?\nB: Hallo! Ja, schade, dass er geht. Eine Party ist eine schöne Idee.\nA: Wie wäre es am Freitag in der letzten Stunde?\nB: Freitag ist gut, aber wir müssen die Lehrerin fragen.\nA: Wir könnten ihm einen Stadtplan von Hamburg und ein Fotobuch schenken.\nB: Das Fotobuch finde ich super, den Stadtplan braucht er nicht, er hat ein Handy.\nA: Jeder bringt etwas Kleines zu essen mit.\nB: Gute Idee, und ich bringe Getränke mit.\nA: Für das Geschenk zahlt jeder fünf Euro.\nB: Fünf Euro sind in Ordnung. Ich sammle das Geld ein.\nA: Gut, dann sage ich den anderen Bescheid. Bis Freitag!\nB: Prima, bis Freitag!",
+   "roles": {
+    "A": [
+     "Hallo! Marco zieht nächsten Monat nach Hamburg. Sollen wir eine Abschiedsparty machen?",
+     "Wie wäre es am Freitag in der letzten Stunde?",
+     "Wir könnten ihm einen Stadtplan von Hamburg und ein Fotobuch schenken.",
+     "Jeder bringt etwas Kleines zu essen mit.",
+     "Für das Geschenk zahlt jeder fünf Euro.",
+     "Gut, dann sage ich den anderen Bescheid. Bis Freitag!"
+    ],
+    "B": [
+     "Hallo! Ja, schade, dass er geht. Eine Party ist eine schöne Idee.",
+     "Freitag ist gut, aber wir müssen die Lehrerin fragen.",
+     "Das Fotobuch finde ich super, den Stadtplan braucht er nicht, er hat ein Handy.",
+     "Gute Idee, und ich bringe Getränke mit.",
+     "Fünf Euro sind in Ordnung. Ich sammle das Geld ein.",
+     "Prima, bis Freitag!"
+    ]
+   },
+   "dialogue": [
+    "Hallo! Marco zieht nächsten Monat nach Hamburg. Sollen wir eine Abschiedsparty machen?",
+    "Hallo! Ja, schade, dass er geht. Eine Party ist eine schöne Idee.",
+    "Wie wäre es am Freitag in der letzten Stunde?",
+    "Freitag ist gut, aber wir müssen die Lehrerin fragen.",
+    "Wir könnten ihm einen Stadtplan von Hamburg und ein Fotobuch schenken.",
+    "Das Fotobuch finde ich super, den Stadtplan braucht er nicht, er hat ein Handy.",
+    "Jeder bringt etwas Kleines zu essen mit.",
+    "Gute Idee, und ich bringe Getränke mit.",
+    "Für das Geschenk zahlt jeder fünf Euro.",
+    "Fünf Euro sind in Ordnung. Ich sammle das Geld ein.",
+    "Gut, dann sage ich den anderen Bescheid. Bis Freitag!",
+    "Prima, bis Freitag!"
+   ],
+   "keywords": []
+  },
+  {
+   "id": "sr13",
+   "title": "Grillen mit Freunden",
+   "ownTitle": true,
+   "task": "Am Sonntag soll das Wetter schön werden. Sie und Ihr Partner möchten mit Freunden grillen. Planen Sie gemeinsam: ❖ Wo grillt ihr? ❖ Essen und Getränke ❖ Wer bringt was mit? ❖ Was macht ihr bei Regen?",
+   "text": "Grillen mit Freunden\nAm Sonntag soll das Wetter schön werden. Sie und Ihr Partner möchten mit Freunden grillen. Planen Sie gemeinsam: ❖ Wo grillt ihr? ❖ Essen und Getränke ❖ Wer bringt was mit? ❖ Was macht ihr bei Regen?\nA: Hallo! Am Sonntag wird es sonnig. Wollen wir mit den anderen grillen?\nB: Hallo! Ja, gerne, das haben wir lange nicht gemacht.\nA: Wir könnten im Park am See grillen, dort darf man das.\nB: Am See ist schön, aber am Sonntag ist es dort sehr voll.\nA: Wir brauchen Würstchen, Gemüse, Brot und Salat.\nB: Ja, und auch etwas Vegetarisches für Lena.\nA: Ich bringe den Grill und die Kohle mit. Kannst du die Getränke kaufen?\nB: Klar, ich kaufe Wasser, Saft und Limonade.\nA: Wenn es regnet, grillen wir einfach auf meinem Balkon.\nB: Dein Balkon ist gut, oder wir verschieben auf nächste Woche.\nA: Super, dann schreibe ich in die Gruppe. Bis Sonntag!\nB: Prima, bis Sonntag!",
+   "roles": {
+    "A": [
+     "Hallo! Am Sonntag wird es sonnig. Wollen wir mit den anderen grillen?",
+     "Wir könnten im Park am See grillen, dort darf man das.",
+     "Wir brauchen Würstchen, Gemüse, Brot und Salat.",
+     "Ich bringe den Grill und die Kohle mit. Kannst du die Getränke kaufen?",
+     "Wenn es regnet, grillen wir einfach auf meinem Balkon.",
+     "Super, dann schreibe ich in die Gruppe. Bis Sonntag!"
+    ],
+    "B": [
+     "Hallo! Ja, gerne, das haben wir lange nicht gemacht.",
+     "Am See ist schön, aber am Sonntag ist es dort sehr voll.",
+     "Ja, und auch etwas Vegetarisches für Lena.",
+     "Klar, ich kaufe Wasser, Saft und Limonade.",
+     "Dein Balkon ist gut, oder wir verschieben auf nächste Woche.",
+     "Prima, bis Sonntag!"
+    ]
+   },
+   "dialogue": [
+    "Hallo! Am Sonntag wird es sonnig. Wollen wir mit den anderen grillen?",
+    "Hallo! Ja, gerne, das haben wir lange nicht gemacht.",
+    "Wir könnten im Park am See grillen, dort darf man das.",
+    "Am See ist schön, aber am Sonntag ist es dort sehr voll.",
+    "Wir brauchen Würstchen, Gemüse, Brot und Salat.",
+    "Ja, und auch etwas Vegetarisches für Lena.",
+    "Ich bringe den Grill und die Kohle mit. Kannst du die Getränke kaufen?",
+    "Klar, ich kaufe Wasser, Saft und Limonade.",
+    "Wenn es regnet, grillen wir einfach auf meinem Balkon.",
+    "Dein Balkon ist gut, oder wir verschieben auf nächste Woche.",
+    "Super, dann schreibe ich in die Gruppe. Bis Sonntag!",
+    "Prima, bis Sonntag!"
+   ],
+   "keywords": []
+  },
+  {
+   "id": "sr14",
+   "title": "Jubiläum der Sprachschule",
+   "ownTitle": true,
+   "task": "Ihre Sprachschule wird 25 Jahre alt. Die Kursteilnehmer sollen etwas für das Fest vorbereiten. Planen Sie gemeinsam: ❖ Programm ❖ Wann übt ihr? ❖ Was brauchen wir? ❖ Wer hilft?",
+   "text": "Jubiläum der Sprachschule\nIhre Sprachschule wird 25 Jahre alt. Die Kursteilnehmer sollen etwas für das Fest vorbereiten. Planen Sie gemeinsam: ❖ Programm ❖ Wann übt ihr? ❖ Was brauchen wir? ❖ Wer hilft?\nA: Hallo! Die Schule feiert bald 25 Jahre. Wir sollen etwas vorbereiten.\nB: Hallo! Ja, ich habe es gehört. Was können wir machen?\nA: Wir könnten ein kurzes Theaterstück auf Deutsch spielen.\nB: Theater ist lustig, aber schwierig. Vielleicht singen wir lieber ein Lied?\nA: Wie wäre es, wenn wir jeden Mittwoch nach dem Kurs üben?\nB: Mittwoch passt mir. Aber nur eine Stunde, bitte.\nA: Wir brauchen ein paar Kostüme und Musik.\nB: Kostüme können wir im Secondhandladen kaufen.\nA: Ich frage, ob die Lehrerin uns beim Text hilft.\nB: Gute Idee. Ich frage auch die anderen Kurse.\nA: Gut, dann fangen wir nächsten Mittwoch an. Bis dann!\nB: Prima, bis Mittwoch!",
+   "roles": {
+    "A": [
+     "Hallo! Die Schule feiert bald 25 Jahre. Wir sollen etwas vorbereiten.",
+     "Wir könnten ein kurzes Theaterstück auf Deutsch spielen.",
+     "Wie wäre es, wenn wir jeden Mittwoch nach dem Kurs üben?",
+     "Wir brauchen ein paar Kostüme und Musik.",
+     "Ich frage, ob die Lehrerin uns beim Text hilft.",
+     "Gut, dann fangen wir nächsten Mittwoch an. Bis dann!"
+    ],
+    "B": [
+     "Hallo! Ja, ich habe es gehört. Was können wir machen?",
+     "Theater ist lustig, aber schwierig. Vielleicht singen wir lieber ein Lied?",
+     "Mittwoch passt mir. Aber nur eine Stunde, bitte.",
+     "Kostüme können wir im Secondhandladen kaufen.",
+     "Gute Idee. Ich frage auch die anderen Kurse.",
+     "Prima, bis Mittwoch!"
+    ]
+   },
+   "dialogue": [
+    "Hallo! Die Schule feiert bald 25 Jahre. Wir sollen etwas vorbereiten.",
+    "Hallo! Ja, ich habe es gehört. Was können wir machen?",
+    "Wir könnten ein kurzes Theaterstück auf Deutsch spielen.",
+    "Theater ist lustig, aber schwierig. Vielleicht singen wir lieber ein Lied?",
+    "Wie wäre es, wenn wir jeden Mittwoch nach dem Kurs üben?",
+    "Mittwoch passt mir. Aber nur eine Stunde, bitte.",
+    "Wir brauchen ein paar Kostüme und Musik.",
+    "Kostüme können wir im Secondhandladen kaufen.",
+    "Ich frage, ob die Lehrerin uns beim Text hilft.",
+    "Gute Idee. Ich frage auch die anderen Kurse.",
+    "Gut, dann fangen wir nächsten Mittwoch an. Bis dann!",
+    "Prima, bis Mittwoch!"
+   ],
+   "keywords": []
+  },
+  {
+   "id": "sr15",
+   "title": "Beim Umzug helfen",
+   "ownTitle": true,
+   "task": "Ein Freund zieht am Samstag in eine neue Wohnung. Sie und Ihr Partner möchten ihm helfen. Planen Sie gemeinsam: ❖ Wann trefft ihr euch? ❖ Transport ❖ Essen und Getränke ❖ Weitere Ideen",
+   "text": "Beim Umzug helfen\nEin Freund zieht am Samstag in eine neue Wohnung. Sie und Ihr Partner möchten ihm helfen. Planen Sie gemeinsam: ❖ Wann trefft ihr euch? ❖ Transport ❖ Essen und Getränke ❖ Weitere Ideen\nA: Hallo! Daniel zieht am Samstag um. Hilfst du auch mit?\nB: Hallo! Ja, klar, ich helfe gerne.\nA: Wir treffen uns am Samstag um neun Uhr bei seiner alten Wohnung.\nB: Neun Uhr ist gut. Ich bringe Werkzeug mit.\nA: Wir könnten einen Transporter mieten, dann müssen wir nur einmal fahren.\nB: Ein Transporter ist teuer. Vielleicht leiht uns Peter seinen?\nA: Zum Mittag bestellen wir Pizza für alle.\nB: Pizza ist gut, und ich bringe Wasser und Kaffee mit.\nA: Nach dem Umzug helfen wir ihm noch, die Küche aufzubauen.\nB: Einverstanden, und am Abend feiern wir ein bisschen.\nA: Gut, dann sehen wir uns am Samstag. Tschüss!\nB: Bis Samstag!",
+   "roles": {
+    "A": [
+     "Hallo! Daniel zieht am Samstag um. Hilfst du auch mit?",
+     "Wir treffen uns am Samstag um neun Uhr bei seiner alten Wohnung.",
+     "Wir könnten einen Transporter mieten, dann müssen wir nur einmal fahren.",
+     "Zum Mittag bestellen wir Pizza für alle.",
+     "Nach dem Umzug helfen wir ihm noch, die Küche aufzubauen.",
+     "Gut, dann sehen wir uns am Samstag. Tschüss!"
+    ],
+    "B": [
+     "Hallo! Ja, klar, ich helfe gerne.",
+     "Neun Uhr ist gut. Ich bringe Werkzeug mit.",
+     "Ein Transporter ist teuer. Vielleicht leiht uns Peter seinen?",
+     "Pizza ist gut, und ich bringe Wasser und Kaffee mit.",
+     "Einverstanden, und am Abend feiern wir ein bisschen.",
+     "Bis Samstag!"
+    ]
+   },
+   "dialogue": [
+    "Hallo! Daniel zieht am Samstag um. Hilfst du auch mit?",
+    "Hallo! Ja, klar, ich helfe gerne.",
+    "Wir treffen uns am Samstag um neun Uhr bei seiner alten Wohnung.",
+    "Neun Uhr ist gut. Ich bringe Werkzeug mit.",
+    "Wir könnten einen Transporter mieten, dann müssen wir nur einmal fahren.",
+    "Ein Transporter ist teuer. Vielleicht leiht uns Peter seinen?",
+    "Zum Mittag bestellen wir Pizza für alle.",
+    "Pizza ist gut, und ich bringe Wasser und Kaffee mit.",
+    "Nach dem Umzug helfen wir ihm noch, die Küche aufzubauen.",
+    "Einverstanden, und am Abend feiern wir ein bisschen.",
+    "Gut, dann sehen wir uns am Samstag. Tschüss!",
+    "Bis Samstag!"
+   ],
+   "keywords": []
+  },
+  {
+   "id": "sr16",
+   "title": "Hausfest planen",
+   "ownTitle": true,
+   "task": "Die Hausverwaltung erlaubt ein Fest im Gemeinschaftsraum. Sie und Ihr Partner planen es. Planen Sie gemeinsam: ❖ Wann ist das Fest? ❖ Essen und Getränke ❖ Dekoration und Überraschung ❖ Wer räumt auf?",
+   "text": "Hausfest planen\nDie Hausverwaltung erlaubt ein Fest im Gemeinschaftsraum. Sie und Ihr Partner planen es. Planen Sie gemeinsam: ❖ Wann ist das Fest? ❖ Essen und Getränke ❖ Dekoration und Überraschung ❖ Wer räumt auf?\nA: Hallo! Wir dürfen den Gemeinschaftsraum für ein Hausfest benutzen.\nB: Hallo! Super, dann können sich alle besser kennenlernen.\nA: Wie wäre es am Freitagabend in drei Wochen?\nB: Freitag ist gut, dann müssen am nächsten Tag nicht alle arbeiten.\nA: Jeder Haushalt bringt etwas zum Buffet mit.\nB: Ja, und Getränke kaufen wir von der Hauskasse.\nA: Wir könnten den Raum mit Lichterketten und Blumen dekorieren.\nB: Lichterketten sind schön. Ich habe welche im Keller.\nA: Ich schlage vor, dass alle zusammen am nächsten Morgen aufräumen.\nB: Besser direkt am Abend, dann ist der Raum am Samstag frei.\nA: Gut, dann schreibe ich die Einladung. Bis bald!\nB: Prima, bis bald!",
+   "roles": {
+    "A": [
+     "Hallo! Wir dürfen den Gemeinschaftsraum für ein Hausfest benutzen.",
+     "Wie wäre es am Freitagabend in drei Wochen?",
+     "Jeder Haushalt bringt etwas zum Buffet mit.",
+     "Wir könnten den Raum mit Lichterketten und Blumen dekorieren.",
+     "Ich schlage vor, dass alle zusammen am nächsten Morgen aufräumen.",
+     "Gut, dann schreibe ich die Einladung. Bis bald!"
+    ],
+    "B": [
+     "Hallo! Super, dann können sich alle besser kennenlernen.",
+     "Freitag ist gut, dann müssen am nächsten Tag nicht alle arbeiten.",
+     "Ja, und Getränke kaufen wir von der Hauskasse.",
+     "Lichterketten sind schön. Ich habe welche im Keller.",
+     "Besser direkt am Abend, dann ist der Raum am Samstag frei.",
+     "Prima, bis bald!"
+    ]
+   },
+   "dialogue": [
+    "Hallo! Wir dürfen den Gemeinschaftsraum für ein Hausfest benutzen.",
+    "Hallo! Super, dann können sich alle besser kennenlernen.",
+    "Wie wäre es am Freitagabend in drei Wochen?",
+    "Freitag ist gut, dann müssen am nächsten Tag nicht alle arbeiten.",
+    "Jeder Haushalt bringt etwas zum Buffet mit.",
+    "Ja, und Getränke kaufen wir von der Hauskasse.",
+    "Wir könnten den Raum mit Lichterketten und Blumen dekorieren.",
+    "Lichterketten sind schön. Ich habe welche im Keller.",
+    "Ich schlage vor, dass alle zusammen am nächsten Morgen aufräumen.",
+    "Besser direkt am Abend, dann ist der Raum am Samstag frei.",
+    "Gut, dann schreibe ich die Einladung. Bis bald!",
+    "Prima, bis bald!"
+   ],
+   "keywords": []
+  },
+  {
+   "id": "sr17",
+   "title": "Geburtstag einer Kollegin",
+   "ownTitle": true,
+   "task": "Eine Kollegin hat am Montag Geburtstag. Sie und Ihr Partner möchten im Büro eine kleine Überraschung vorbereiten. Planen Sie gemeinsam: ❖ Wann feiert ihr? ❖ Geschenk ❖ Essen und Getränke ❖ Wer bezahlt?",
+   "text": "Geburtstag einer Kollegin\nEine Kollegin hat am Montag Geburtstag. Sie und Ihr Partner möchten im Büro eine kleine Überraschung vorbereiten. Planen Sie gemeinsam: ❖ Wann feiert ihr? ❖ Geschenk ❖ Essen und Getränke ❖ Wer bezahlt?\nA: Hallo! Elif hat am Montag Geburtstag. Sollen wir etwas machen?\nB: Hallo! Ja, natürlich, sie freut sich bestimmt.\nA: Wir könnten in der Mittagspause zusammen feiern.\nB: Die Mittagspause ist gut, dann sind alle da.\nA: Wie wäre es mit einem schönen Kalender und Blumen?\nB: Blumen sind gut. Sie mag Bücher, vielleicht ein Kochbuch?\nA: Ich backe am Wochenende einen Schokoladenkuchen.\nB: Super, ich bringe Kaffee und Saft mit.\nA: Ich schlage vor, dass alle aus der Abteilung fünf Euro geben.\nB: Fünf Euro sind fair. Ich sammle das Geld.\nA: Gut, dann frage ich die anderen. Bis Montag!\nB: Prima, bis Montag!",
+   "roles": {
+    "A": [
+     "Hallo! Elif hat am Montag Geburtstag. Sollen wir etwas machen?",
+     "Wir könnten in der Mittagspause zusammen feiern.",
+     "Wie wäre es mit einem schönen Kalender und Blumen?",
+     "Ich backe am Wochenende einen Schokoladenkuchen.",
+     "Ich schlage vor, dass alle aus der Abteilung fünf Euro geben.",
+     "Gut, dann frage ich die anderen. Bis Montag!"
+    ],
+    "B": [
+     "Hallo! Ja, natürlich, sie freut sich bestimmt.",
+     "Die Mittagspause ist gut, dann sind alle da.",
+     "Blumen sind gut. Sie mag Bücher, vielleicht ein Kochbuch?",
+     "Super, ich bringe Kaffee und Saft mit.",
+     "Fünf Euro sind fair. Ich sammle das Geld.",
+     "Prima, bis Montag!"
+    ]
+   },
+   "dialogue": [
+    "Hallo! Elif hat am Montag Geburtstag. Sollen wir etwas machen?",
+    "Hallo! Ja, natürlich, sie freut sich bestimmt.",
+    "Wir könnten in der Mittagspause zusammen feiern.",
+    "Die Mittagspause ist gut, dann sind alle da.",
+    "Wie wäre es mit einem schönen Kalender und Blumen?",
+    "Blumen sind gut. Sie mag Bücher, vielleicht ein Kochbuch?",
+    "Ich backe am Wochenende einen Schokoladenkuchen.",
+    "Super, ich bringe Kaffee und Saft mit.",
+    "Ich schlage vor, dass alle aus der Abteilung fünf Euro geben.",
+    "Fünf Euro sind fair. Ich sammle das Geld.",
+    "Gut, dann frage ich die anderen. Bis Montag!",
+    "Prima, bis Montag!"
+   ],
+   "keywords": []
+  },
+  {
+   "id": "sr18",
+   "title": "Fahrt zu einer Hochzeit",
+   "ownTitle": true,
+   "task": "Ein gemeinsamer Freund heiratet in einer anderen Stadt. Sie und Ihr Partner planen die Reise. Planen Sie gemeinsam: ❖ Verkehrsmittel ❖ Wo übernachtet ihr? ❖ Geschenk ❖ Wann? Termin",
+   "text": "Fahrt zu einer Hochzeit\nEin gemeinsamer Freund heiratet in einer anderen Stadt. Sie und Ihr Partner planen die Reise. Planen Sie gemeinsam: ❖ Verkehrsmittel ❖ Wo übernachtet ihr? ❖ Geschenk ❖ Wann? Termin\nA: Hallo! Hast du schon die Einladung zu Tarıks Hochzeit bekommen?\nB: Hallo! Ja, ich freue mich sehr. Wie kommen wir dorthin?\nA: Wir könnten zusammen mit meinem Auto fahren und uns das Benzin teilen.\nB: Mit dem Auto ist gut, aber dann trinken wir keinen Alkohol.\nA: Wir sollten ein Hotelzimmer in der Nähe vom Festsaal reservieren.\nB: Ein Hotel ist teuer. Vielleicht eine Ferienwohnung?\nA: Als Geschenk könnten wir Geld in einer schönen Karte schenken.\nB: Geld ist praktisch, das wünschen sich viele Paare.\nA: Wie wäre es, wenn wir am Freitagnachmittag losfahren?\nB: Freitag ist gut, dann sind wir am Samstag nicht müde.\nA: Gut, dann reserviere ich das Hotel. Bis bald!\nB: Prima, bis bald!",
+   "roles": {
+    "A": [
+     "Hallo! Hast du schon die Einladung zu Tarıks Hochzeit bekommen?",
+     "Wir könnten zusammen mit meinem Auto fahren und uns das Benzin teilen.",
+     "Wir sollten ein Hotelzimmer in der Nähe vom Festsaal reservieren.",
+     "Als Geschenk könnten wir Geld in einer schönen Karte schenken.",
+     "Wie wäre es, wenn wir am Freitagnachmittag losfahren?",
+     "Gut, dann reserviere ich das Hotel. Bis bald!"
+    ],
+    "B": [
+     "Hallo! Ja, ich freue mich sehr. Wie kommen wir dorthin?",
+     "Mit dem Auto ist gut, aber dann trinken wir keinen Alkohol.",
+     "Ein Hotel ist teuer. Vielleicht eine Ferienwohnung?",
+     "Geld ist praktisch, das wünschen sich viele Paare.",
+     "Freitag ist gut, dann sind wir am Samstag nicht müde.",
+     "Prima, bis bald!"
+    ]
+   },
+   "dialogue": [
+    "Hallo! Hast du schon die Einladung zu Tarıks Hochzeit bekommen?",
+    "Hallo! Ja, ich freue mich sehr. Wie kommen wir dorthin?",
+    "Wir könnten zusammen mit meinem Auto fahren und uns das Benzin teilen.",
+    "Mit dem Auto ist gut, aber dann trinken wir keinen Alkohol.",
+    "Wir sollten ein Hotelzimmer in der Nähe vom Festsaal reservieren.",
+    "Ein Hotel ist teuer. Vielleicht eine Ferienwohnung?",
+    "Als Geschenk könnten wir Geld in einer schönen Karte schenken.",
+    "Geld ist praktisch, das wünschen sich viele Paare.",
+    "Wie wäre es, wenn wir am Freitagnachmittag losfahren?",
+    "Freitag ist gut, dann sind wir am Samstag nicht müde.",
+    "Gut, dann reserviere ich das Hotel. Bis bald!",
+    "Prima, bis bald!"
+   ],
+   "keywords": []
+  },
+  {
+   "id": "sr19",
+   "title": "Kursabschlussparty",
+   "ownTitle": true,
+   "task": "Ihr Deutschkurs ist zu Ende. Alle haben die Prüfung geschafft. Sie und Ihr Partner organisieren eine Party. Planen Sie gemeinsam: ❖ Wo feiert ihr? ❖ Wann feiert ihr? ❖ Essen und Getränke ❖ Musik und Programm",
+   "text": "Kursabschlussparty\nIhr Deutschkurs ist zu Ende. Alle haben die Prüfung geschafft. Sie und Ihr Partner organisieren eine Party. Planen Sie gemeinsam: ❖ Wo feiert ihr? ❖ Wann feiert ihr? ❖ Essen und Getränke ❖ Musik und Programm\nA: Hallo! Wir haben alle bestanden. Wir müssen feiern!\nB: Hallo! Ja, endlich! Wo wollen wir feiern?\nA: Wir könnten in einem Restaurant in der Innenstadt feiern.\nB: Ein Restaurant ist schön, aber teuer. Vielleicht im Kursraum?\nA: Wie wäre es am Samstagabend um 19 Uhr?\nB: Samstag ist gut, dann kann jeder kommen.\nA: Jeder bezahlt sein Essen selbst, das ist einfacher.\nB: Einverstanden. Wer möchte, bringt auch Musik mit.\nA: Wir könnten eine Präsentation mit Fotos aus dem Kurs zeigen.\nB: Fotos sind super. Ich habe viele auf dem Handy.\nA: Gut, dann reserviere ich einen Tisch. Bis Samstag!\nB: Prima, bis Samstag!",
+   "roles": {
+    "A": [
+     "Hallo! Wir haben alle bestanden. Wir müssen feiern!",
+     "Wir könnten in einem Restaurant in der Innenstadt feiern.",
+     "Wie wäre es am Samstagabend um 19 Uhr?",
+     "Jeder bezahlt sein Essen selbst, das ist einfacher.",
+     "Wir könnten eine Präsentation mit Fotos aus dem Kurs zeigen.",
+     "Gut, dann reserviere ich einen Tisch. Bis Samstag!"
+    ],
+    "B": [
+     "Hallo! Ja, endlich! Wo wollen wir feiern?",
+     "Ein Restaurant ist schön, aber teuer. Vielleicht im Kursraum?",
+     "Samstag ist gut, dann kann jeder kommen.",
+     "Einverstanden. Wer möchte, bringt auch Musik mit.",
+     "Fotos sind super. Ich habe viele auf dem Handy.",
+     "Prima, bis Samstag!"
+    ]
+   },
+   "dialogue": [
+    "Hallo! Wir haben alle bestanden. Wir müssen feiern!",
+    "Hallo! Ja, endlich! Wo wollen wir feiern?",
+    "Wir könnten in einem Restaurant in der Innenstadt feiern.",
+    "Ein Restaurant ist schön, aber teuer. Vielleicht im Kursraum?",
+    "Wie wäre es am Samstagabend um 19 Uhr?",
+    "Samstag ist gut, dann kann jeder kommen.",
+    "Jeder bezahlt sein Essen selbst, das ist einfacher.",
+    "Einverstanden. Wer möchte, bringt auch Musik mit.",
+    "Wir könnten eine Präsentation mit Fotos aus dem Kurs zeigen.",
+    "Fotos sind super. Ich habe viele auf dem Handy.",
+    "Gut, dann reserviere ich einen Tisch. Bis Samstag!",
+    "Prima, bis Samstag!"
+   ],
+   "keywords": []
+  },
+  {
+   "id": "sr20",
+   "title": "Abschied von einer Kollegin",
+   "ownTitle": true,
+   "task": "Eine Kollegin wechselt zu einer anderen Firma. Sie und Ihr Partner planen einen Abschied im Team. Planen Sie gemeinsam: ❖ Wann ist der Abschied? ❖ Geschenk ❖ Essen und Getränke ❖ Wer bezahlt?",
+   "text": "Abschied von einer Kollegin\nEine Kollegin wechselt zu einer anderen Firma. Sie und Ihr Partner planen einen Abschied im Team. Planen Sie gemeinsam: ❖ Wann ist der Abschied? ❖ Geschenk ❖ Essen und Getränke ❖ Wer bezahlt?\nA: Hallo! Anna verlässt uns Ende des Monats. Wir sollten uns verabschieden.\nB: Hallo! Ja, schade. Sie war immer sehr hilfsbereit.\nA: Wir könnten am Donnerstag nach der Arbeit etwas trinken gehen.\nB: Donnerstag ist gut, aber nicht alle haben abends Zeit. Vielleicht mittags?\nA: Wie wäre es mit einer Pflanze für ihr neues Büro?\nB: Eine Pflanze ist schön. Und eine Karte, auf der alle unterschreiben.\nA: Wir bestellen ein paar Snacks und Getränke für das Büro.\nB: Gute Idee. Ich bestelle die Snacks.\nA: Ich schlage vor, dass das Team das Geschenk zusammen bezahlt.\nB: Einverstanden. Jeder gibt so viel, wie er möchte.\nA: Gut, dann kümmere ich mich um das Geschenk. Bis später!\nB: Prima, bis später!",
+   "roles": {
+    "A": [
+     "Hallo! Anna verlässt uns Ende des Monats. Wir sollten uns verabschieden.",
+     "Wir könnten am Donnerstag nach der Arbeit etwas trinken gehen.",
+     "Wie wäre es mit einer Pflanze für ihr neues Büro?",
+     "Wir bestellen ein paar Snacks und Getränke für das Büro.",
+     "Ich schlage vor, dass das Team das Geschenk zusammen bezahlt.",
+     "Gut, dann kümmere ich mich um das Geschenk. Bis später!"
+    ],
+    "B": [
+     "Hallo! Ja, schade. Sie war immer sehr hilfsbereit.",
+     "Donnerstag ist gut, aber nicht alle haben abends Zeit. Vielleicht mittags?",
+     "Eine Pflanze ist schön. Und eine Karte, auf der alle unterschreiben.",
+     "Gute Idee. Ich bestelle die Snacks.",
+     "Einverstanden. Jeder gibt so viel, wie er möchte.",
+     "Prima, bis später!"
+    ]
+   },
+   "dialogue": [
+    "Hallo! Anna verlässt uns Ende des Monats. Wir sollten uns verabschieden.",
+    "Hallo! Ja, schade. Sie war immer sehr hilfsbereit.",
+    "Wir könnten am Donnerstag nach der Arbeit etwas trinken gehen.",
+    "Donnerstag ist gut, aber nicht alle haben abends Zeit. Vielleicht mittags?",
+    "Wie wäre es mit einer Pflanze für ihr neues Büro?",
+    "Eine Pflanze ist schön. Und eine Karte, auf der alle unterschreiben.",
+    "Wir bestellen ein paar Snacks und Getränke für das Büro.",
+    "Gute Idee. Ich bestelle die Snacks.",
+    "Ich schlage vor, dass das Team das Geschenk zusammen bezahlt.",
+    "Einverstanden. Jeder gibt so viel, wie er möchte.",
+    "Gut, dann kümmere ich mich um das Geschenk. Bis später!",
+    "Prima, bis später!"
+   ],
+   "keywords": []
+  },
+  {
+   "id": "sr21",
+   "title": "Klassenfahrt planen",
+   "ownTitle": true,
+   "task": "Sie und Ihr Partner sind Elternvertreter. Die Klasse Ihrer Kinder macht einen Tagesausflug. Planen Sie gemeinsam: ❖ Wohin fahrt ihr? ❖ Verkehrsmittel ❖ Was kostet es? ❖ Wer begleitet die Kinder?",
+   "text": "Klassenfahrt planen\nSie und Ihr Partner sind Elternvertreter. Die Klasse Ihrer Kinder macht einen Tagesausflug. Planen Sie gemeinsam: ❖ Wohin fahrt ihr? ❖ Verkehrsmittel ❖ Was kostet es? ❖ Wer begleitet die Kinder?\nA: Hallo! Wir sollen den Ausflug für die Klasse 4b planen.\nB: Hallo! Ja, die Kinder freuen sich schon sehr.\nA: Wir könnten in den Zoo nach Frankfurt fahren.\nB: Der Zoo ist gut. Oder das Naturkundemuseum, falls es regnet?\nA: Ich schlage vor, dass wir mit der S-Bahn fahren, das ist günstig.\nB: Die S-Bahn ist gut, aber wir müssen auf die Kinder gut aufpassen.\nA: Mit Eintritt und Fahrkarte kostet es ungefähr 15 Euro pro Kind.\nB: 15 Euro sind für manche Familien viel. Vielleicht hilft der Förderverein?\nA: Neben der Lehrerin sollten mindestens zwei Eltern mitfahren.\nB: Ich kann mitfahren. Ich frage noch einen Vater.\nA: Gut, dann schreibe ich einen Brief an die Eltern. Bis bald!\nB: Prima, bis bald!",
+   "roles": {
+    "A": [
+     "Hallo! Wir sollen den Ausflug für die Klasse 4b planen.",
+     "Wir könnten in den Zoo nach Frankfurt fahren.",
+     "Ich schlage vor, dass wir mit der S-Bahn fahren, das ist günstig.",
+     "Mit Eintritt und Fahrkarte kostet es ungefähr 15 Euro pro Kind.",
+     "Neben der Lehrerin sollten mindestens zwei Eltern mitfahren.",
+     "Gut, dann schreibe ich einen Brief an die Eltern. Bis bald!"
+    ],
+    "B": [
+     "Hallo! Ja, die Kinder freuen sich schon sehr.",
+     "Der Zoo ist gut. Oder das Naturkundemuseum, falls es regnet?",
+     "Die S-Bahn ist gut, aber wir müssen auf die Kinder gut aufpassen.",
+     "15 Euro sind für manche Familien viel. Vielleicht hilft der Förderverein?",
+     "Ich kann mitfahren. Ich frage noch einen Vater.",
+     "Prima, bis bald!"
+    ]
+   },
+   "dialogue": [
+    "Hallo! Wir sollen den Ausflug für die Klasse 4b planen.",
+    "Hallo! Ja, die Kinder freuen sich schon sehr.",
+    "Wir könnten in den Zoo nach Frankfurt fahren.",
+    "Der Zoo ist gut. Oder das Naturkundemuseum, falls es regnet?",
+    "Ich schlage vor, dass wir mit der S-Bahn fahren, das ist günstig.",
+    "Die S-Bahn ist gut, aber wir müssen auf die Kinder gut aufpassen.",
+    "Mit Eintritt und Fahrkarte kostet es ungefähr 15 Euro pro Kind.",
+    "15 Euro sind für manche Familien viel. Vielleicht hilft der Förderverein?",
+    "Neben der Lehrerin sollten mindestens zwei Eltern mitfahren.",
+    "Ich kann mitfahren. Ich frage noch einen Vater.",
+    "Gut, dann schreibe ich einen Brief an die Eltern. Bis bald!",
+    "Prima, bis bald!"
+   ],
+   "keywords": []
+  },
+  {
+   "id": "sr22",
+   "title": "Zwei Kinder am Wochenende betreuen",
+   "ownTitle": true,
+   "task": "Freunde fahren zu einer Hochzeit. Sie und Ihr Partner betreuen am Wochenende ihre zwei Kinder. Planen Sie gemeinsam: ❖ Was macht ihr am Samstag? ❖ Was macht ihr am Sonntag? ❖ Essen und Getränke ❖ Übernachtung",
+   "text": "Zwei Kinder am Wochenende betreuen\nFreunde fahren zu einer Hochzeit. Sie und Ihr Partner betreuen am Wochenende ihre zwei Kinder. Planen Sie gemeinsam: ❖ Was macht ihr am Samstag? ❖ Was macht ihr am Sonntag? ❖ Essen und Getränke ❖ Übernachtung\nA: Hallo! Wir passen ja am Wochenende auf Mia und Leo auf.\nB: Hallo! Ja, das wird bestimmt anstrengend, aber schön.\nA: Am Samstag könnten wir ins Schwimmbad gehen.\nB: Schwimmbad ist super, Leo schwimmt sehr gern.\nA: Am Sonntag gehen wir vielleicht in den Wald und machen ein Picknick.\nB: Ein Picknick ist schön. Wir können auch Fahrrad fahren.\nA: Wir kochen zusammen mit den Kindern, zum Beispiel Pfannkuchen.\nB: Pfannkuchen ist eine gute Idee. Die Kinder dürfen helfen.\nA: Die Kinder können bei mir im Gästezimmer schlafen.\nB: Gut, ich bringe noch Bettwäsche und Spiele mit.\nA: Gut, dann kaufe ich am Freitag ein. Bis dann!\nB: Prima, bis Freitag!",
+   "roles": {
+    "A": [
+     "Hallo! Wir passen ja am Wochenende auf Mia und Leo auf.",
+     "Am Samstag könnten wir ins Schwimmbad gehen.",
+     "Am Sonntag gehen wir vielleicht in den Wald und machen ein Picknick.",
+     "Wir kochen zusammen mit den Kindern, zum Beispiel Pfannkuchen.",
+     "Die Kinder können bei mir im Gästezimmer schlafen.",
+     "Gut, dann kaufe ich am Freitag ein. Bis dann!"
+    ],
+    "B": [
+     "Hallo! Ja, das wird bestimmt anstrengend, aber schön.",
+     "Schwimmbad ist super, Leo schwimmt sehr gern.",
+     "Ein Picknick ist schön. Wir können auch Fahrrad fahren.",
+     "Pfannkuchen ist eine gute Idee. Die Kinder dürfen helfen.",
+     "Gut, ich bringe noch Bettwäsche und Spiele mit.",
+     "Prima, bis Freitag!"
+    ]
+   },
+   "dialogue": [
+    "Hallo! Wir passen ja am Wochenende auf Mia und Leo auf.",
+    "Hallo! Ja, das wird bestimmt anstrengend, aber schön.",
+    "Am Samstag könnten wir ins Schwimmbad gehen.",
+    "Schwimmbad ist super, Leo schwimmt sehr gern.",
+    "Am Sonntag gehen wir vielleicht in den Wald und machen ein Picknick.",
+    "Ein Picknick ist schön. Wir können auch Fahrrad fahren.",
+    "Wir kochen zusammen mit den Kindern, zum Beispiel Pfannkuchen.",
+    "Pfannkuchen ist eine gute Idee. Die Kinder dürfen helfen.",
+    "Die Kinder können bei mir im Gästezimmer schlafen.",
+    "Gut, ich bringe noch Bettwäsche und Spiele mit.",
+    "Gut, dann kaufe ich am Freitag ein. Bis dann!",
+    "Prima, bis Freitag!"
+   ],
+   "keywords": []
+  },
+  {
+   "id": "sr23",
+   "title": "Neue Möbel kaufen",
+   "ownTitle": true,
+   "task": "Sie und Ihr Partner wohnen zusammen in einer WG. Das Wohnzimmer braucht neue Möbel. Planen Sie gemeinsam: ❖ Was? ❖ Wie viel darf es kosten? ❖ Wo kauft ihr? ❖ Transport",
+   "text": "Neue Möbel kaufen\nSie und Ihr Partner wohnen zusammen in einer WG. Das Wohnzimmer braucht neue Möbel. Planen Sie gemeinsam: ❖ Was? ❖ Wie viel darf es kosten? ❖ Wo kauft ihr? ❖ Transport\nA: Hallo! Unser Sofa ist wirklich kaputt. Wir brauchen neue Möbel.\nB: Hallo! Ja, das stimmt. Was brauchen wir genau?\nA: Wir brauchen ein neues Sofa und vielleicht einen kleinen Tisch.\nB: Ein Sofa ist wichtig. Und ein Regal für die Bücher.\nA: Ich schlage vor, dass wir höchstens 400 Euro ausgeben.\nB: 400 Euro sind okay, wir teilen es durch zwei.\nA: Wir könnten im Möbelhaus am Stadtrand kaufen.\nB: Oder wir suchen gebrauchte Möbel im Internet, das ist billiger.\nA: Das Möbelhaus kann liefern, das kostet nur 30 Euro.\nB: Lieferung ist gut, dann müssen wir nichts tragen.\nA: Gut, dann fahren wir am Samstag hin. Bis später!\nB: Prima, bis Samstag!",
+   "roles": {
+    "A": [
+     "Hallo! Unser Sofa ist wirklich kaputt. Wir brauchen neue Möbel.",
+     "Wir brauchen ein neues Sofa und vielleicht einen kleinen Tisch.",
+     "Ich schlage vor, dass wir höchstens 400 Euro ausgeben.",
+     "Wir könnten im Möbelhaus am Stadtrand kaufen.",
+     "Das Möbelhaus kann liefern, das kostet nur 30 Euro.",
+     "Gut, dann fahren wir am Samstag hin. Bis später!"
+    ],
+    "B": [
+     "Hallo! Ja, das stimmt. Was brauchen wir genau?",
+     "Ein Sofa ist wichtig. Und ein Regal für die Bücher.",
+     "400 Euro sind okay, wir teilen es durch zwei.",
+     "Oder wir suchen gebrauchte Möbel im Internet, das ist billiger.",
+     "Lieferung ist gut, dann müssen wir nichts tragen.",
+     "Prima, bis Samstag!"
+    ]
+   },
+   "dialogue": [
+    "Hallo! Unser Sofa ist wirklich kaputt. Wir brauchen neue Möbel.",
+    "Hallo! Ja, das stimmt. Was brauchen wir genau?",
+    "Wir brauchen ein neues Sofa und vielleicht einen kleinen Tisch.",
+    "Ein Sofa ist wichtig. Und ein Regal für die Bücher.",
+    "Ich schlage vor, dass wir höchstens 400 Euro ausgeben.",
+    "400 Euro sind okay, wir teilen es durch zwei.",
+    "Wir könnten im Möbelhaus am Stadtrand kaufen.",
+    "Oder wir suchen gebrauchte Möbel im Internet, das ist billiger.",
+    "Das Möbelhaus kann liefern, das kostet nur 30 Euro.",
+    "Lieferung ist gut, dann müssen wir nichts tragen.",
+    "Gut, dann fahren wir am Samstag hin. Bis später!",
+    "Prima, bis Samstag!"
+   ],
+   "keywords": []
+  }
+ ]
+}
