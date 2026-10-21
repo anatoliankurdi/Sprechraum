@@ -50,6 +50,21 @@ Model etiketi kurulumunuzda farklıysa uygulamadaki **Yerel AI ayarları** böl�
 - Uygulama açılışında/telefona dönüşte gösterilebilen, kapatılabilir ve kelime sayısı ayarlanabilir hızlı günlük tekrar
 - Masaüstü, tablet ve mobil uyumlu profesyonel arayüz
 
+## Sunucusuz çalışma (GitHub Pages, iOS/Android)
+
+Sınav motoru `exam-engine.js` dosyasındadır ve hem tarayıcıda hem `server.mjs` içinde aynı kodla çalışır. `local-api.js`, açılışta `/api/ping` ile masaüstü sunucusunu arar:
+
+- **Sunucu varsa** (`node server.mjs`): istekler sunucuya gider; Ollama, Supertonic ve PDF içe aktarma kullanılır.
+- **Sunucu yoksa** (GitHub Pages, Capacitor kabuğu, çevrimdışı): aynı `/api/*` istekleri tarayıcı içindeki motora gider. Sözlü sınav, ipuçları, yazma değerlendirmesi (kural tabanlı) ve cihazın Almanca sesi çalışır. PDF içe aktarma ve yapay zekâ sohbeti bu modda yoktur.
+
+Masaüstü sunucusu artık varsayılan olarak yalnızca `127.0.0.1` adresini dinler. Telefonla aynı ağdan test için `HOST=0.0.0.0 node server.mjs` kullanın.
+
+## İçerik kaynağı
+
+- `data/sprechen-themen.json`: 23 özgün "Gemeinsam etwas planen" teması (`scripts/build_speaking_themes.py` ile üretilir).
+- `telc-b1-practice-data.js`: Sprechraum Modelltest 1. Okuma, Sprachbausteine, dinleme ve yazma bölümleri resmî formatı izler; tüm metinler özgündür.
+- Uygulama hiçbir sınav kurumuyla bağlantılı değildir. "telc" ve "Goethe-Zertifikat" adları yalnızca hangi sınava hazırlandığını belirtmek için kullanılır.
+
 ## Üretim için sonraki teknik katman
 
 Uygulama PWA olarak hazırlanmıştır. Telefon ve bilgisayar aynı yerel ağdaysa sunucuyu ağ adresinde yayınlayarak telefondan açabilir, Safari/Chrome menüsündeki **Ana Ekrana Ekle** seçeneğiyle uygulama gibi kurabilirsiniz. Mikrofon için HTTPS veya güvenilir yerel adres gerekir.
